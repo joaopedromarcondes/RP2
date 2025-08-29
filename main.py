@@ -5,54 +5,68 @@ import sounddevice as sd
 import soundfile as sf
 from deepface import DeepFace
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
+import threading
+import queue
+import time
 
-# ========================
-# 1. Configurações iniciais
-# ========================
-model = whisper.load_model("base")
+# -----------------------------
+# Configurações iniciais
+# -----------------------------
+model = whisper.load_model("tiny")  # modelo leve
 sia = SentimentIntensityAnalyzer()
-cap = cv2.VideoCapture(0)  # webcam
-duration = 5  # segundos para cada trecho de áudio
-samplerate = 44100
+cap = cv2.VideoCapture(0)
+samplerate = 16000  # Whisper funciona bem com 16kHz
+duration = 2  # segundos de cada bloco de áudio
+frame_skip = 5  # analisa 1 a cada 5 frames
+audio_queue = queue.Queue()
 
-# ========================
-# Loop principal em tempo real
-# ========================
-try:
+# -----------------------------
+# Função de thread para transcrição
+# -----------------------------
+def transcrever_thread():
     while True:
-        # ---- Captura de áudio ----
-        print("Gravando áudio...")
-        audio_data = sd.rec(int(duration * samplerate), samplerate=samplerate, channels=1)
-        sd.wait()
-        sf.write("temp.wav", audio_data, samplerate)
-
-        # ---- Transcrição ----
-        result = model.transcribe("temp.wav")
+        audio_file = audio_queue.get()
+        if audio_file is None:
+            break
+        result = model.transcribe(audio_file)
         texto = result["text"]
         print("Transcrição:", texto)
+        print("Sentimento:", sia.polarity_scores(texto))
+        audio_queue.task_done()
 
-        # ---- Análise de sentimento ----
-        sentimento = sia.polarity_scores(texto)
-        print("Sentimento:", sentimento)
+# Inicia a thread
+threading.Thread(target=transcrever_thread, daemon=True).start()
 
-        # ---- Captura de vídeo e análise facial ----
+# -----------------------------
+# Loop principal (vídeo + áudio)
+# -----------------------------
+frame_count = 0
+try:
+    while True:
+        # --- Captura de áudio ---
+        audio_data = sd.rec(int(duration * samplerate), samplerate=samplerate, channels=1)
+        sd.wait()
+        # salva temporariamente para o Whisper
+        sf.write("temp.wav", audio_data, samplerate)
+        audio_queue.put("temp.wav")
+
+        # --- Captura de vídeo ---
         ret, frame = cap.read()
         if not ret:
             continue
-        try:
-            analysis = DeepFace.analyze(frame, actions=["emotion"], enforce_detection=False)
-            emocao = analysis[0]["dominant_emotion"]
-        except:
-            emocao = "indefinido"
-        print("Emoção facial:", emocao)
 
-        # ---- Mostra o frame na tela ----
-        cv2.putText(frame, f"{emocao}", (50,50), cv2.FONT_HERSHEY_SIMPLEX, 1, (0,255,0), 2)
-        cv2.imshow("Camera", frame)
+        frame_count += 1
+        if frame_count % frame_skip == 0:
+            try:
+                analysis = DeepFace.analyze(frame, actions=["emotion"], enforce_detection=False)
+                print("Emoção facial:", analysis[0]["dominant_emotion"])
+            except:
+                print("Emoção facial: indefinido")
 
-        if cv2.waitKey(1) & 0xFF == ord('q'):
-            break
+        time.sleep(0.1)  # pequeno delay para reduzir carga da CPU
 
+except KeyboardInterrupt:
+    print("Encerrando...")
 finally:
+    audio_queue.put(None)  # encerra thread de áudio
     cap.release()
-    cv2.destroyAllWindows()
