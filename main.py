@@ -1,72 +1,115 @@
 import whisper
 import cv2
-import numpy as np
-import sounddevice as sd
-import soundfile as sf
 from deepface import DeepFace
-from nltk.sentiment.vader import SentimentIntensityAnalyzer
-import threading
-import queue
-import time
+from transformers import pipeline
+import json
 
-# -----------------------------
-# Configurações iniciais
-# -----------------------------
-model = whisper.load_model("tiny")  # modelo leve
-sia = SentimentIntensityAnalyzer()
-cap = cv2.VideoCapture(0)
-samplerate = 16000  # Whisper funciona bem com 16kHz
-duration = 2  # segundos de cada bloco de áudio
-frame_skip = 5  # analisa 1 a cada 5 frames
-audio_queue = queue.Queue()
+# ============================
+# 1. Transcrever áudio com timestamps (Whisper)
+# ============================
+def transcrever_com_tempo(audio_path):
+    model = whisper.load_model("base")
+    result = model.transcribe(audio_path, word_timestamps=True)
+    frases = []
+    for seg in result["segments"]:
+        frases.append({
+            "texto": seg["text"].strip(),
+            "inicio": seg["start"],
+            "fim": seg["end"]
+        })
+    return frases
 
-# -----------------------------
-# Função de thread para transcrição
-# -----------------------------
-def transcrever_thread():
+# ============================
+# 2. Analisar emoções faciais por frame do vídeo
+# ============================
+def analisar_video(video_path):
+    cap = cv2.VideoCapture(video_path)
+    emotions = []
+    fps = cap.get(cv2.CAP_PROP_FPS)
+    frame_num = 0
+
     while True:
-        audio_file = audio_queue.get()
-        if audio_file is None:
-            break
-        result = model.transcribe(audio_file)
-        texto = result["text"]
-        print("Transcrição:", texto)
-        print("Sentimento:", sia.polarity_scores(texto))
-        audio_queue.task_done()
-
-# Inicia a thread
-threading.Thread(target=transcrever_thread, daemon=True).start()
-
-# -----------------------------
-# Loop principal (vídeo + áudio)
-# -----------------------------
-frame_count = 0
-try:
-    while True:
-        # --- Captura de áudio ---
-        audio_data = sd.rec(int(duration * samplerate), samplerate=samplerate, channels=1)
-        sd.wait()
-        # salva temporariamente para o Whisper
-        sf.write("temp.wav", audio_data, samplerate)
-        audio_queue.put("temp.wav")
-
-        # --- Captura de vídeo ---
         ret, frame = cap.read()
         if not ret:
-            continue
-
-        frame_count += 1
-        if frame_count % frame_skip == 0:
-            try:
-                analysis = DeepFace.analyze(frame, actions=["emotion"], enforce_detection=False)
-                print("Emoção facial:", analysis[0]["dominant_emotion"])
-            except:
-                print("Emoção facial: indefinido")
-
-        time.sleep(0.1)  # pequeno delay para reduzir carga da CPU
-
-except KeyboardInterrupt:
-    print("Encerrando...")
-finally:
-    audio_queue.put(None)  # encerra thread de áudio
+            break
+        tempo = frame_num / fps  # tempo em segundos
+        try:
+            analysis = DeepFace.analyze(
+                frame,
+                actions=["emotion"],
+                enforce_detection=False
+            )
+            emotions.append({
+                "tempo": tempo,
+                "emocao": analysis[0]["dominant_emotion"]
+            })
+        except:
+            pass
+        frame_num += 1
     cap.release()
+    return emotions
+
+# ============================
+# 3. Análise de sentimento em português (Transformers)
+# ============================
+sentiment_pipeline = pipeline("sentiment-analysis", model="nlptown/bert-base-multilingual-uncased-sentiment")
+
+def analisar_sentimento(texto):
+    try:
+        result = sentiment_pipeline(texto[:512])  # cortar textos muito longos
+        return result[0]
+    except Exception as e:
+        return {"label": "erro", "score": 0.0}
+
+# ============================
+# 4. Combinar frases + emoções faciais + sentimento
+# ============================
+def combinar(frases, emotions):
+    resultados = []
+    for frase in frases:
+        # pegar emoções do vídeo dentro do intervalo da frase
+        emocoes_frase = [
+            e["emocao"] for e in emotions
+            if frase["inicio"] <= e["tempo"] <= frase["fim"]
+        ]
+        if emocoes_frase:
+            emocao_dominante = max(set(emocoes_frase), key=emocoes_frase.count)
+        else:
+            emocao_dominante = "indefinido"
+
+        # análise de sentimento do texto
+        sentimento = analisar_sentimento(frase["texto"])
+
+        resultados.append({
+            "texto": frase["texto"],
+            "inicio": frase["inicio"],
+            "fim": frase["fim"],
+            "emocao_facial": emocao_dominante,
+            "sentimento_texto": sentimento["label"],
+            "confianca_sentimento": float(sentimento["score"])
+        })
+    return resultados
+
+# ============================
+# Execução
+# ============================
+if __name__ == "__main__":
+    audio = "saida.wav"
+    video = "saida.mp4"
+
+    print(">> Transcrevendo áudio...")
+    frases = transcrever_com_tempo(audio)
+
+    print(">> Analisando vídeo...")
+    emotions = analisar_video(video)
+
+    print(">> Combinando resultados...")
+    combinados = combinar(frases, emotions)
+
+    for c in combinados:
+        print(c)
+
+    with open("resultados_sentimento.json", "w", encoding="utf-8") as f:
+        json.dump(combinados, f, ensure_ascii=False, indent=4)
+
+    print("Resultados salvos em resultados_sentimento.json")
