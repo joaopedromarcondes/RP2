@@ -7,74 +7,122 @@ import tempfile
 from scipy.io.wavfile import write
 from langchain_community.llms import Ollama
 from langchain.prompts import PromptTemplate
+import tkinter as tk
+from tkinter import messagebox
 
 # ---- Configuração ----
 historico = []
-
-# ---- LLM (Ollama) ----
 llm = Ollama(model="llama3.2")
-
-# Prompt que instrui o modelo a ser entrevistador
 template = PromptTemplate(
-    input_variables=["historico"],
+    input_variables=["historico", "pergunta_nova"],
     template=(
-        "Você é um entrevistador em uma conversa. "
+        "Você é um entrevistador em uma conversa sobre saúde mental. "
         "Aqui está o histórico da entrevista até agora:\n\n{historico}\n\n"
-        "Com base nisso, faça a próxima pergunta de forma natural, "
+        "Essa é a próxima pergunta que você deverá fazer:\n\n{pergunta_nova}\n\n."
+        "Com base nisso, faça alterações na pergunta de forma natural, "
         "em português, SEM responder por você mesmo. "
-        "Apenas gere a nova pergunta."
+        "Não quero sugestões de perguntas, quero que você apenas reformule a pergunta dada."
     )
 )
-
-# ---- Carregar modelo Whisper ----
 modelo_whisper = whisper.load_model("base")
 
-# ---- Função para capturar fala ----
-def gravar_resposta(duracao=5, fs=16000):
-    print("🎤 Gravando... fale agora!")
-    audio = sd.rec(int(duracao * fs), samplerate=fs, channels=1, dtype="float32")
-    sd.wait()
-    print("✅ Gravação concluída.")
-    return (fs, audio)
+perguntas = [
+    "Qual é o seu nome?",
+    "O que você acha da saúde mental na EACH-USP?",
+    "Como você está se sentindo hoje?",
+    "Você tem enfrentado algum desafio recentemente?",
+    "O que você faz para cuidar da sua saúde mental?",
+    "Você já procurou ajuda profissional para sua saúde mental?",
+    "Como você lida com o estresse no seu dia a dia?",
+]
+num_pergunta_atual = 0
 
-# ---- Função para transcrever com Whisper ----
+# ---- Variáveis de gravação ----
+fs = 16000
+duracao = 5
+audio_data = None
+gravando = False
+
+def iniciar_gravacao():
+    global gravando, audio_data
+    gravando = True
+    status_label.config(text="🎤 Gravando... fale agora!")
+    audio_data = sd.rec(int(duracao * fs), samplerate=fs, channels=1, dtype="float32")
+    # Não espera aqui! O usuário vai clicar em "Parar" quando quiser.
+
+def parar_gravacao():
+    global gravando, audio_data
+    if gravando and audio_data is not None:
+        sd.wait()  # Finaliza a gravação
+        gravando = False
+        status_label.config(text="✅ Gravação concluída.")
+        resposta = transcrever(audio_data, fs)
+        resposta_label.config(text=f"👤 Você: {resposta}")
+        registrar_resposta(resposta)
+        audio_data = None
+    else:
+        messagebox.showinfo("Info", "Nenhuma gravação em andamento.")
+
 def transcrever(audio_data, fs):
     with tempfile.NamedTemporaryFile(suffix=".wav", delete=False) as tmpfile:
-        write(tmpfile.name, fs, (audio_data * 32767).astype(np.int16))  # salvar como WAV
+        write(tmpfile.name, fs, (audio_data * 32767).astype(np.int16))
         result = modelo_whisper.transcribe(tmpfile.name, language="pt", fp16=False)
+        print(result["text"])
     return result["text"]
 
-# ---- Entrevista ----
-# Primeira pergunta fixa
-pergunta = "Qual é o seu nome?"
-
-for i in range(5):  # define quantas perguntas quer no total
-    print("\n🤖 Entrevistador:", pergunta)
+def registrar_resposta(resposta):
+    global pergunta, perguntas, num_pergunta_atual
     ts_pergunta = datetime.datetime.now().isoformat()
-
-    # Gravar áudio do usuário
-    fs, audio = gravar_resposta(5)
-    resposta = transcrever(audio, fs)
-    print("👤 Você:", resposta)
-
     ts_resposta = datetime.datetime.now().isoformat()
-
-    # Registrar histórico
+    contexto = "\n".join(
+        [f"Q: {h['pergunta']}\nA: {h['resposta']}" for h in historico]
+    )
+    pergunta_nova = llm(template.format(historico=contexto, pergunta_nova=perguntas[num_pergunta_atual]), ).strip()
     historico.append({
         "pergunta": pergunta,
         "pergunta_timestamp": ts_pergunta,
         "resposta": resposta,
-        "resposta_timestamp": ts_resposta
+        "resposta_timestamp": ts_resposta,
+        "proxima_pergunta": pergunta_nova
     })
+    num_pergunta_atual += 1
+    pergunta_label.config(text=f"🤖 Entrevistador: {pergunta_nova}")
+    pergunta = pergunta_nova
 
-    # Gerar próxima pergunta pelo modelo
-    contexto = "\n".join(
-        [f"Q: {h['pergunta']}\nA: {h['resposta']}" for h in historico]
-    )
-    pergunta = llm(template.format(historico=contexto)).strip()
+def salvar_entrevista():
+    with open("entrevista.json", "w", encoding="utf-8") as f:
+        json.dump(historico, f, indent=4, ensure_ascii=False)
+    messagebox.showinfo("Salvo", "📁 Entrevista salva em entrevista.json")
 
-# ---- Salvar resultado final ----
-with open("entrevista.json", "w", encoding="utf-8") as f:
-    json.dump(historico, f, indent=4, ensure_ascii=False)
+# ---- Interface gráfica ----
+pergunta = perguntas[num_pergunta_atual]
+num_pergunta_atual += 1
 
-print("\n📁 Entrevista salva em entrevista.json")
+root = tk.Tk()
+root.title("Entrevista Saúde Mental")
+
+pergunta_label = tk.Label(
+    root,
+    text=f"🤖 Entrevistador: {pergunta}",
+    font=("Arial", 14),
+    wraplength=500,  # Limita largura e quebra linha
+    justify="left"   # Alinha à esquerda
+)
+pergunta_label.pack(pady=10)
+
+resposta_label = tk.Label(root, text="👤 Você: ", font=("Arial", 12))
+resposta_label.pack(pady=10)
+
+status_label = tk.Label(root, text="", font=("Arial", 10))
+status_label.pack(pady=5)
+
+btn_gravar = tk.Button(root, text="Começar Gravação", command=iniciar_gravacao)
+btn_gravar.pack(side=tk.LEFT, padx=10, pady=20)
+
+btn_parar = tk.Button(root, text="Parar Gravação", command=parar_gravacao)
+btn_parar.pack(side=tk.LEFT, padx=10, pady=20)
+
+btn_salvar = tk.Button(root, text="Salvar Entrevista", command=salvar_entrevista)
+btn_salvar.pack(side=tk.RIGHT, padx=10, pady=20)
+
+root.mainloop()
