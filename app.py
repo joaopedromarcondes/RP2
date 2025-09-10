@@ -21,7 +21,8 @@ template = PromptTemplate(
         "Essa é a próxima pergunta que você deverá fazer:\n\n{pergunta_nova}\n\n."
         "Com base nisso, faça alterações na pergunta de forma natural, "
         "em português, SEM responder por você mesmo. "
-        "Não quero sugestões de perguntas, quero que você apenas reformule a pergunta dada."
+        "Não quero sugestões de perguntas, quero que você apenas reformule a pergunta dada,"
+        "com base no histórico.\n"
     )
 )
 modelo_whisper = whisper.load_model("base")
