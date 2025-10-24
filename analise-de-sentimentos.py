@@ -8,7 +8,7 @@ import json
 # 1. Transcrever áudio com timestamps (Whisper)
 # ============================
 def transcrever_com_tempo(audio_path):
-    model = whisper.load_model("base")
+    model = whisper.load_model("turbo")
     result = model.transcribe(audio_path, word_timestamps=True)
     frases = []
     for seg in result["segments"]:
