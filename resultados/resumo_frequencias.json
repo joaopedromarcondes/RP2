@@ -1,0 +1,110 @@
+{
+    "Gustavo Neves Moraes":{
+        "sad":57.23,
+        "neutral":36.83,
+        "fear":3.47,
+        "surprise":1.75,
+        "happy":0.33,
+        "angry":0.39,
+        "disgust":0.0
+    },
+    "Mateus Da Cruz Esposte":{
+        "sad":23.23,
+        "neutral":74.15,
+        "fear":1.52,
+        "surprise":0.03,
+        "happy":0.99,
+        "angry":0.08,
+        "disgust":0.0
+    },
+    "Emilly Neves Chaves":{
+        "sad":8.92,
+        "neutral":34.22,
+        "fear":39.85,
+        "surprise":1.03,
+        "happy":7.49,
+        "angry":8.46,
+        "disgust":0.02
+    },
+    "Eduardo Plaza Correa":{
+        "sad":11.71,
+        "neutral":64.99,
+        "fear":12.67,
+        "surprise":1.27,
+        "happy":5.94,
+        "angry":3.42,
+        "disgust":0.0
+    },
+    "Daniel Ye":{
+        "sad":0.57,
+        "neutral":90.61,
+        "fear":0.0,
+        "surprise":0.0,
+        "happy":8.73,
+        "angry":0.04,
+        "disgust":0.04
+    },
+    "Guilherme Fernandes Da Costa":{
+        "sad":1.0,
+        "neutral":20.79,
+        "fear":0.24,
+        "surprise":1.76,
+        "happy":6.46,
+        "angry":69.72,
+        "disgust":0.03
+    },
+    "Felipe Brancalh\u00e3o Curcio":{
+        "sad":2.17,
+        "neutral":95.12,
+        "fear":0.34,
+        "surprise":0.0,
+        "happy":0.5,
+        "angry":1.88,
+        "disgust":0.0
+    },
+    "Mariana Blasques Lombardi De Morais ":{
+        "sad":54.54,
+        "neutral":21.93,
+        "fear":16.22,
+        "surprise":6.07,
+        "happy":0.54,
+        "angry":0.71,
+        "disgust":0.0
+    },
+    "Giovanna Benchaya Reis":{
+        "sad":17.24,
+        "neutral":45.31,
+        "fear":18.09,
+        "surprise":2.09,
+        "happy":12.24,
+        "angry":4.99,
+        "disgust":0.04
+    },
+    "Giovanna Mayumi Sakai Seligman Sposito":{
+        "sad":22.58,
+        "neutral":47.53,
+        "fear":5.82,
+        "surprise":2.45,
+        "happy":16.97,
+        "angry":4.54,
+        "disgust":0.11
+    },
+    "Eduardo Araujo":{
+        "sad":6.63,
+        "neutral":76.99,
+        "fear":6.34,
+        "surprise":1.64,
+        "happy":4.86,
+        "angry":3.54,
+        "disgust":0.0
+    },
+    "Nazivon Santos Do Nascimento":{
+        "sad":46.89,
+        "neutral":20.55,
+        "fear":29.71,
+        "surprise":0.05,
+        "happy":1.61,
+        "angry":1.19,
+        "disgust":0.0
+    }
+}

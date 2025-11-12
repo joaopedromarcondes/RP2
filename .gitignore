@@ -1,3 +1,6 @@
 temp.wav
 resultados_sentimento.json
 entrevista.json
+.venv
+__pycache__/
+entrevistas/

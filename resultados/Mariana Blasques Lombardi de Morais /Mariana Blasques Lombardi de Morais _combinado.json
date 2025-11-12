@@ -1,0 +1,356 @@
+[
+    {
+        "texto": "Como é a sua rotina? Cite brevemente as principais atividades.",
+        "inicio": 0.7800000000000005,
+        "fim": 4.82,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Normalmente, é que varia muito o dia. Como a gente faz obstetrícia, acho que isso é integral alguns dias.",
+        "inicio": 6.760000000000001,
+        "fim": 11.78,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "Então, nos dias que é integral, é um pouco mais corrido. Então, eu sempre tento treinar também nos mesmos dias.",
+        "inicio": 12.5,
+        "fim": 20.34,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "Então, eu sinto que é muito corrido e, às vezes, eu não treino direito, ou treino muito tarde, ou treino muito cedo, e isso me irrita um pouco.",
+        "inicio": 21.44,
+        "fim": 28.4,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "E nos outros dias, alguns dias eu trabalho também. Então, nos dias que é meio período, eu costumo vir para a faculdade de manhã, trabalhar de tarde e treinar à noite.",
+        "inicio": 28.88,
+        "fim": 38.86,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "Ou só treinar de tarde, aí são os dias que eu tenho minhas tempos.",
+        "inicio": 38.94,
+        "fim": 41.76,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "E o que você faz no seu tempo livre? Pratica atividades físicas, dorme, tem momentos de lazer?",
+        "inicio": 42.66,
+        "fim": 48.12,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Então, eu gosto muito de treinar. Então, mesmo que eu tenha que treinar rápido ou treinar pouco, eu considero como um tempo livre.",
+        "inicio": 48.52,
+        "fim": 55.6,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "Mesmo que, às vezes, isso acabe me estressando um pouco, porque é sempre uma coisa que eu gostei muito de fazer.",
+        "inicio": 55.6,
+        "fim": 59.48,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "Então, eu sinto que todo dia, pelo menos, eu tenho um tempinho livre.",
+        "inicio": 61.36,
+        "fim": 64.26,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "E no meu tempo livre, normalmente, ou eu saio com as minhas amigas, ou eu assisto sério, eu gosto muito de assistir sério.",
+        "inicio": 64.4,
+        "fim": 72.06,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "E, às vezes, eu tento também ler um pouco. Eu gosto muito de ler.",
+        "inicio": 72.98,
+        "fim": 76.74,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "Em quais momentos do seu dia você sente emoções mais positivas e em quais momentos sente as mais negativas?",
+        "inicio": 77.38,
+        "fim": 83.52,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "Eu acho que as mais negativas, normalmente, ou só no trabalho, quando está muito estressante, ou transporte, acontece algumas vezes também.",
+        "inicio": 83.8,
+        "fim": 95.58,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "E positivas, normalmente, quando eu estou treinando, quando eu estou com minhas amigas e quando eu estou vindo sério.",
+        "inicio": 95.8,
+        "fim": 101.94,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "Geralmente, são situações mais calmas, tá, geral?",
+        "inicio": 102.2,
+        "fim": 104.84,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "Em quais situações você se sente mais nervosa, estressada ou ansiosa?",
+        "inicio": 105.70000000000002,
+        "fim": 110.38,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "Às vezes, quando eu estou estudando, acontece bastante.",
+        "inicio": 112.28,
+        "fim": 115.1,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "Quando eu percebo que eu estou, às vezes, perdendo tempo com coisa besta.",
+        "inicio": 116.58000000000001,
+        "fim": 120.22,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "Quando eu percebo que, sei lá, às vezes, um caminho que era para durar uma hora, durou duas horas, se estressa bastante.",
+        "inicio": 120.6,
+        "fim": 127.06,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "Ou quando as coisas não saem muito dentro do que eu planejei.",
+        "inicio": 127.92000000000002,
+        "fim": 131.42,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "Isso costuma me irritar um pouquinho também, mas eu sinto que eu estou lidando melhor ultimamente.",
+        "inicio": 132.24,
+        "fim": 136.84,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "Você acredita que essas situações impactam na sua qualidade de vida?",
+        "inicio": 137.84,
+        "fim": 141.68,
+        "emocao_facial": "surprise"
+    },
+    {
+        "texto": "Sim.",
+        "inicio": 142.2,
+        "fim": 142.6,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "Eu sinto que, antes, quando eu era um pouco menos preocupada, eu era mais tranquila.",
+        "inicio": 143.02,
+        "fim": 146.72,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "Agora, eu sinto que eu me estresso mais com maior frequência quando eu não consigo fazer as coisas que eu quero.",
+        "inicio": 146.88,
+        "fim": 153.2,
+        "emocao_facial": "fear"
+    },
+    {
+        "texto": "Às vezes, acontece alguma coisa bem prevista.",
+        "inicio": 153.56,
+        "fim": 155.54,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "Você acha que a sua rotina tem atrapalhado o seu desempenho na faculdade ou tem impactado negativamente suas relações?",
+        "inicio": 156.96,
+        "fim": 163.64,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "Eu acho que, principalmente, o trabalho.",
+        "inicio": 163.94,
+        "fim": 166.04,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "É uma coisa, é meio que um freelancer.",
+        "inicio": 166.26,
+        "fim": 167.94,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "Então, tem dias que eu sei que eu não vou trabalhar e daí chega a hora e fala, ah, o meu chefe pede para mim.",
+        "inicio": 168.3,
+        "fim": 174.78,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "Então, coisas de última hora, assim, acabam me atrapalhando.",
+        "inicio": 174.78,
+        "fim": 178.34,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "Às vezes, não consigo sair com minhas amigas por causa disso.",
+        "inicio": 178.44,
+        "fim": 180.42,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "Tenho que desmarcar as coisas, desmarcar as coisas que eu planejei.",
+        "inicio": 180.5,
+        "fim": 183.76,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "E isso acaba me deixando bem chateada.",
+        "inicio": 184.06,
+        "fim": 187.58,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "E o que você faz para a manutenção da sua saúde mental?",
+        "inicio": 187.84,
+        "fim": 190.88,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "Eu tento sempre, algum dia da semana, deixar mais tranquilo.",
+        "inicio": 191.36,
+        "fim": 194.98,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "Algum dia da semana que eu não...",
+        "inicio": 195.4,
+        "fim": 197.22,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "Porque eu sei que, assim, se eu tiver que fazer alguma coisa na faculdade, vai ser alguma coisa rápida.",
+        "inicio": 197.22,
+        "fim": 200.68,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "Ou que eu posso relaxar por mais tempo.",
+        "inicio": 201.56,
+        "fim": 204.84,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "E também ir na academia, que é uma coisa que me ajuda.",
+        "inicio": 205.2,
+        "fim": 207.82,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "Então, eu tento fazer isso.",
+        "inicio": 208.2,
+        "fim": 210.82,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "E o que você acha que a EACH poderia fazer no sentido de cuidar da saúde mental dos alunos?",
+        "inicio": 211.38,
+        "fim": 216.46,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Eu acho que...",
+        "inicio": 217.1,
+        "fim": 218.84,
+        "emocao_facial": "fear"
+    },
+    {
+        "texto": "Eu sinto que, às vezes, tem uma...",
+        "inicio": 221.06,
+        "fim": 223.06,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "É que, eu não sei se é alguma coisa da EACH, mas, às vezes, tem uma desorganização das aulas.",
+        "inicio": 223.06,
+        "fim": 227.24,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "Tem aulas que, às vezes, não precisariam ter uma marcadora tão grande.",
+        "inicio": 227.44,
+        "fim": 232.08,
+        "emocao_facial": "fear"
+    },
+    {
+        "texto": "Que poderiam ser menores.",
+        "inicio": 232.5,
+        "fim": 234.3,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "Ou que poderiam condensar mais aulas em alguns dias, para ter mais alguns dias livres.",
+        "inicio": 234.8,
+        "fim": 239.46,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "Como as grades ficam muito bagunçadas, com horários muito grandes.",
+        "inicio": 240.14,
+        "fim": 243.08,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "E, para quem mora longe, isso é muito ruim.",
+        "inicio": 243.18,
+        "fim": 244.62,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "Se tem uma aula de manhã, das, sei lá...",
+        "inicio": 244.86,
+        "fim": 247.94,
+        "emocao_facial": "fear"
+    },
+    {
+        "texto": "Das nove até meio-dia, e depois uma aula só de noite.",
+        "inicio": 247.94,
+        "fim": 250.72,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "Isso, às vezes, sabe a pessoa que mora longe, não vai conseguir voltar para casa e fazer as coisas dela.",
+        "inicio": 250.72,
+        "fim": 255.18,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "E vai ter que ficar aqui a tarde inteira, às vezes, perdendo de...",
+        "inicio": 255.34,
+        "fim": 258.82,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "Sei lá, poder ir...",
+        "inicio": 258.82,
+        "fim": 260.58,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "Igual, eu estava falando, às vezes, de treinar ou de ficar um tempo com a família.",
+        "inicio": 260.58,
+        "fim": 263.86,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "Porque tem que ficar esperando por causa de uma falta de organização.",
+        "inicio": 264.06,
+        "fim": 267.38,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "Uhum.",
+        "inicio": 268.18,
+        "fim": 268.48,
+        "emocao_facial": "sad"
+    }
+]

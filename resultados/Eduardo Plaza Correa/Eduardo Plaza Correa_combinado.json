@@ -1,0 +1,404 @@
+[
+    {
+        "texto": "Oi.",
+        "inicio": 0.0,
+        "fim": 0.24,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "Como é a sua rotina? Cite brevemente as principais atividades.",
+        "inicio": 1.36,
+        "fim": 5.44,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Ah, minha rotina na verdade tem sido um pouco regrata, organizada demais, né?",
+        "inicio": 6.4,
+        "fim": 13.08,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Mas basicamente eu acordo, tomo meu cafezinho da manhã, tomo meu banho.",
+        "inicio": 13.56,
+        "fim": 19.7,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Aí depois, tipo, eu tenho coisas da faculdade pra fazer, então pub,",
+        "inicio": 20.22,
+        "fim": 23.54,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "organizar uma oficina que eu tô fazendo pra inclusão digital pra pessoas idosas.",
+        "inicio": 24.599999999999998,
+        "fim": 27.98,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "E aí depois disso eu pego, venho pra ir e acho bandejado,",
+        "inicio": 29.62,
+        "fim": 32.08,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "aí tem aula das 12 até as 6,",
+        "inicio": 32.1,
+        "fim": 33.76,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "e aí tem dias que eu fico das 8 horas da manhã até as 18, que nem acho, que seria hoje.",
+        "inicio": 34.58,
+        "fim": 39.68,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Aí tem dias que eu vou pro Butantan,",
+        "inicio": 40.24,
+        "fim": 41.46,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "e aí esses dias tem sido bem, assim, cansativos, porque eu tenho que me organizar mais,",
+        "inicio": 41.76,
+        "fim": 46.54,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "isso acaba demandando mais da minha saúde mental e do meu mental também.",
+        "inicio": 46.66,
+        "fim": 51.2,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "E o que você faz no seu tempo livre?",
+        "inicio": 52.36,
+        "fim": 54.42,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Pratica atividades físicas, dorme, tem momentos de lazer?",
+        "inicio": 54.62,
+        "fim": 57.84,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Assim, eu já fiz academia por alguns, acho que um ano e meio, dois anos.",
+        "inicio": 58.46,
+        "fim": 63.6,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Eu parei de fazer porque eu tive alguns problemas de saúde, eu parei,",
+        "inicio": 64.46,
+        "fim": 67.62,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "mas também não é algo que eu me arrependo ou que eu queira incessantemente voltar a fazer.",
+        "inicio": 67.7,
+        "fim": 71.9,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Mas eu faço liga de dança, né?",
+        "inicio": 72.28,
+        "fim": 74.32,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Então de segunda e quarta, eu acabo me exercitando bastante.",
+        "inicio": 74.46,
+        "fim": 77.46,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "E essa acaba também, às vezes, sendo minha atividade de lazer,",
+        "inicio": 77.74,
+        "fim": 79.9,
+        "emocao_facial": "happy"
+    },
+    {
+        "texto": "porque eu acabo gostando bastante de dançar.",
+        "inicio": 79.98,
+        "fim": 81.96,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "E talvez eu vou sair pra algum shopping ou conversar com meus amigos,",
+        "inicio": 81.96,
+        "fim": 86.46,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "eu gosto bastante de jogar também.",
+        "inicio": 86.5,
+        "fim": 87.74,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Então, no computador, então eu acabo jogando, ficando bastante no meu quarto jogando.",
+        "inicio": 88.24,
+        "fim": 91.32,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Em quais momentos do seu dia você sente as emoções mais positivas?",
+        "inicio": 92.46,
+        "fim": 96.12,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "E em quais momentos sente as mais negativas?",
+        "inicio": 96.14,
+        "fim": 98.6,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Olha, do dia em si, eu acho que quando eu acordo, eu acho que eu tenho mais produtividade,",
+        "inicio": 99.34,
+        "fim": 104.06,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "isso acaba me deixando mais feliz ou com mais emoções positivas.",
+        "inicio": 104.22,
+        "fim": 107.8,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "E aí no final da noite, eu acho que como muita coisa aconteceu,",
+        "inicio": 107.8,
+        "fim": 110.82,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "muita coisa foi acontecendo durante o dia,",
+        "inicio": 110.88,
+        "fim": 113.44,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "eu acho que acaba a gente ficando mais cansado.",
+        "inicio": 113.56,
+        "fim": 115.06,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "E talvez repensando em coisas que aconteceu no dia, né?",
+        "inicio": 115.28,
+        "fim": 117.7,
+        "emocao_facial": "fear"
+    },
+    {
+        "texto": "Que é o único momento do dia que a gente tem pra observar essas questões.",
+        "inicio": 117.72,
+        "fim": 122.86,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "E também, não só do dia, mas do ano, eu sinto que no final do ano,",
+        "inicio": 123.08,
+        "fim": 126.48,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "a gente sempre fica muito mais cansado do que o normal.",
+        "inicio": 126.6,
+        "fim": 128.78,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Pode ser sempre no segundo semestre.",
+        "inicio": 128.94,
+        "fim": 131.14,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Em quais situações você se sente mais nervoso, estressado ou ansioso?",
+        "inicio": 132.02,
+        "fim": 136.58,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Ah, eu acho que em coisas do dia a dia eu não sinto tanta ansiedade.",
+        "inicio": 137.17999999999998,
+        "fim": 140.84,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Mas é mais quando eu vou fazer algo pela primeira vez,",
+        "inicio": 141.14,
+        "fim": 143.56,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "ou talvez quando eu tenho que apresentar algo,",
+        "inicio": 143.76,
+        "fim": 147.94,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "mas é mais pela questão de que eu quero me sair bem,",
+        "inicio": 148.02,
+        "fim": 150.98,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "não necessariamente do que as pessoas estão pensando, do que elas estão vendo.",
+        "inicio": 151.06,
+        "fim": 154.18,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Você acredita que essas situações impactam na sua qualidade de vida?",
+        "inicio": 155.01999999999998,
+        "fim": 158.68,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Não, eu acho que são coisas que são imperceptíveis,",
+        "inicio": 159.4,
+        "fim": 162.04,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "são algo do dia e depois do dia eu esqueço, não faz tanta diferença.",
+        "inicio": 162.1,
+        "fim": 165.5,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Você acha que a sua rotina tem atrapalhado o seu desempenho na faculdade",
+        "inicio": 165.5,
+        "fim": 169.84,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "ou tem impactado negativamente suas relações?",
+        "inicio": 169.84,
+        "fim": 172.62,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Repete tudo, por favor.",
+        "inicio": 173.24,
+        "fim": 174.3,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "Você acha que a sua rotina tem atrapalhado o seu desempenho na faculdade",
+        "inicio": 174.96,
+        "fim": 179.14,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "ou afetado suas relações?",
+        "inicio": 179.14,
+        "fim": 181.4,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Não, eu acho que a faculdade afeta a minha rotina, na verdade.",
+        "inicio": 182.6,
+        "fim": 185.88,
+        "emocao_facial": "happy"
+    },
+    {
+        "texto": "Porque tem muitas coisas para fazer, muitas demandas e acaba que...",
+        "inicio": 186.68,
+        "fim": 189.84,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Isso acaba me deixando sem tempo para fazer outras coisas que talvez queira fazer",
+        "inicio": 189.84,
+        "fim": 192.98,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "mais do que estudar ou me envolver em outras questões acadêmicas.",
+        "inicio": 192.98,
+        "fim": 196.48,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "E o que você faz para a manutenção da sua saúde mental?",
+        "inicio": 197.24,
+        "fim": 200.36,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Ah, eu jogo no meu notebook, eu converso com bastante pessoas assim sobre meus problemas,",
+        "inicio": 200.36,
+        "fim": 208.28,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "eu acho que isso é um tabu que muita gente tem, mas no geral eu gosto de conversar,",
+        "inicio": 208.44,
+        "fim": 211.8,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "de sair, beber, falar das pessoas e jogar bastante.",
+        "inicio": 211.9,
+        "fim": 215.34,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "O que você acha que a AIG poderia fazer no sentido de cuidar da saúde mental dos alunos?",
+        "inicio": 216.12,
+        "fim": 220.76,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Eu acho que mais programas de terapia não comunitária, porque eu acho que é muito invasivo,",
+        "inicio": 221.3,
+        "fim": 225.94,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "invasivo no caso, mas questões mais diretas, tipo realmente sessões de terapia mais focadas",
+        "inicio": 226.38,
+        "fim": 231.88,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "no aluno, uma coisa mais individual, ter mais programas e mais divulgação desses programas",
+        "inicio": 231.88,
+        "fim": 237.24,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "também, porque tem muitas coisas que eu acho que tem, só que a gente não sabe porque",
+        "inicio": 237.24,
+        "fim": 240.28,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "não tem divulgação alguma e chegam milhões de e-mails na nossa conta e a gente não vai",
+        "inicio": 240.28,
+        "fim": 245.82,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "ficar lendo tudo para saber sobre esses programas.",
+        "inicio": 245.82,
+        "fim": 247.58,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Acho que tem que ser uma coisa muito mais boca a boca, mais passados para os centros acadêmicos",
+        "inicio": 247.88,
+        "fim": 251.94,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "para fazer essa divulgação e é isso.",
+        "inicio": 251.94,
+        "fim": 254.06,
+        "emocao_facial": "neutral"
+    }
+]

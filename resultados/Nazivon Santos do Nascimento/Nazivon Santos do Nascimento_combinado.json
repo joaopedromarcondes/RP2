@@ -1,0 +1,212 @@
+[
+    {
+        "texto": "Como é a sua rotina? Cite brevemente as principais atividades.",
+        "inicio": 1.040000000000002,
+        "fim": 5.34,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "Então, depois de acordar, às seis horas aproximadamente, eu venho para a faculdade,",
+        "inicio": 6.12,
+        "fim": 11.5,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "eu fico aqui normalmente das oito ao meio-dia, depois eu volto para casa e fico em casa fazendo as minhas atividades,",
+        "inicio": 11.98,
+        "fim": 22.74,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "trabalho da faculdade, etc. E é isso.",
+        "inicio": 24.180000000000003,
+        "fim": 28.42,
+        "emocao_facial": "fear"
+    },
+    {
+        "texto": "E o que você faz no seu tempo livre? Pratica atividades físicas, dorme ou tem momentos de lazer?",
+        "inicio": 29.099999999999998,
+        "fim": 35.2,
+        "emocao_facial": "fear"
+    },
+    {
+        "texto": "Eu não pratico, não costumo praticar atividades físicas. Às vezes eu faço, sim, mas na maior parte das vezes eu fico no computador ou fico lendo.",
+        "inicio": 35.62,
+        "fim": 48.0,
+        "emocao_facial": "fear"
+    },
+    {
+        "texto": "Ou assisto o tempo.",
+        "inicio": 49.04,
+        "fim": 50.2,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "Em quais momentos do seu dia você sente emoções mais positivas e em quais momentos você sente as mais negativas?",
+        "inicio": 51.3,
+        "fim": 58.14,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "As mais positivas é em casa. Tanto as positivas quanto as negativas, talvez.",
+        "inicio": 58.42,
+        "fim": 66.14,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "As negativas principalmente no transporte público, porque às vezes é cheio e é bem estressante.",
+        "inicio": 66.62,
+        "fim": 75.54,
+        "emocao_facial": "fear"
+    },
+    {
+        "texto": "Mas as positivas principalmente em casa, quando eu tenho tempo de relaxar.",
+        "inicio": 75.54,
+        "fim": 81.4,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "Em quais situações você se sente mais nervoso, estressado ou ansioso?",
+        "inicio": 83.6,
+        "fim": 88.28,
+        "emocao_facial": "fear"
+    },
+    {
+        "texto": "Quando eu tenho muita coisa para fazer, muito trabalho, assim, eu me sinto mais estressado, ansioso.",
+        "inicio": 89.41999999999999,
+        "fim": 97.68,
+        "emocao_facial": "fear"
+    },
+    {
+        "texto": "Também, como eu falei, no transporte, quando está muito cheio.",
+        "inicio": 98.4,
+        "fim": 102.14,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "E você acredita que essas situações impactam na sua qualidade de vida?",
+        "inicio": 102.7,
+        "fim": 107.04,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Sim, acredito que impactam, sim.",
+        "inicio": 107.04,
+        "fim": 109.16,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "Porque, é, eu acredito que impactam porque ninguém gosta de ficar cheio de trabalho, cheio de estresse.",
+        "inicio": 109.58,
+        "fim": 116.54,
+        "emocao_facial": "fear"
+    },
+    {
+        "texto": "Também no ambiente que não é muito favorável ao relaxamento.",
+        "inicio": 116.8,
+        "fim": 121.82,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "Então, impacta, sim.",
+        "inicio": 122.62,
+        "fim": 123.72,
+        "emocao_facial": "fear"
+    },
+    {
+        "texto": "Você acha que a sua rotina tem atrapalhado o seu desempenho na faculdade ou tem impactado negativamente suas relações?",
+        "inicio": 124.44,
+        "fim": 131.1,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "Acho que um pouco, sim.",
+        "inicio": 134.48000000000002,
+        "fim": 136.66,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "Porque, às vezes, com muito trabalho, às vezes passo o dia inteiro fazendo o trabalho na faculdade",
+        "inicio": 137.16,
+        "fim": 144.48,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "e não faço o que, alguma coisa relaxante, algum jogo, por exemplo.",
+        "inicio": 144.48,
+        "fim": 149.94,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "Então, isso acaba afetando no dia seguinte, quando eu venho para a faculdade e nas relações, por exemplo.",
+        "inicio": 150.16,
+        "fim": 158.4,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "E o que você faz para a manutenção da sua saúde mental?",
+        "inicio": 158.4,
+        "fim": 161.48,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Às vezes eu gosto de pegar um tempo para não fazer nada, não fazer o trabalho da faculdade, essas coisas.",
+        "inicio": 162.3,
+        "fim": 170.52,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "E só relaxar, às vezes jogar um jogo, assistir alguma coisa.",
+        "inicio": 171.0,
+        "fim": 174.9,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "É isso.",
+        "inicio": 175.46,
+        "fim": 176.24,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "E o que você acha que a EACH poderia fazer no sentido de cuidar da saúde mental dos alunos?",
+        "inicio": 176.66,
+        "fim": 182.08,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Eu acho que talvez fornecer um ambiente melhor, mais propício.",
+        "inicio": 182.08,
+        "fim": 190.32,
+        "emocao_facial": "fear"
+    },
+    {
+        "texto": "Porque eles têm umas iniciativas do Nau, por exemplo, mas eu acho que não é muito aberto para os estudantes.",
+        "inicio": 191.72,
+        "fim": 198.12,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "Eles não falam diretamente com os estudantes sobre isso.",
+        "inicio": 198.38,
+        "fim": 201.72,
+        "emocao_facial": "fear"
+    },
+    {
+        "texto": "Então, talvez, é, falar, assim, trazer mais esses assuntos para os estudantes.",
+        "inicio": 201.72,
+        "fim": 210.86,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "Isso é legal.",
+        "inicio": 211.14,
+        "fim": 211.6,
+        "emocao_facial": "fear"
+    },
+    {
+        "texto": "",
+        "inicio": 211.84,
+        "fim": 211.84,
+        "emocao_facial": "indefinido"
+    }
+]

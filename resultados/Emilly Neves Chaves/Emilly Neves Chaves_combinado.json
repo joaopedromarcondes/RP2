@@ -1,0 +1,182 @@
+[
+    {
+        "texto": "Como é a sua rotina? Cite brevemente as principais atividades.",
+        "inicio": 0.8400000000000014,
+        "fim": 4.76,
+        "emocao_facial": "angry"
+    },
+    {
+        "texto": "Acordar, tomar café da manhã, ir em preaxe. Sempre tem aula, né? Todos os dias da semana.",
+        "inicio": 6.7200000000000015,
+        "fim": 13.0,
+        "emocao_facial": "fear"
+    },
+    {
+        "texto": "Aí, às vezes, tem algumas coisas da atlética para fazer, às vezes tem algum treino e depois, às vezes, tem teatro, que eu faço freelancer no teatro.",
+        "inicio": 13.5,
+        "fim": 22.06,
+        "emocao_facial": "fear"
+    },
+    {
+        "texto": "E aí, volto para casa, durmo, acabou.",
+        "inicio": 22.24,
+        "fim": 23.66,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "O que você faz no seu tempo livre? Pratica atividades físicas? Dorme? Tem momentos de lazer?",
+        "inicio": 24.700000000000003,
+        "fim": 30.48,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Eu pratico atividade física, mas agora eu estou meio parada porque me machiquei.",
+        "inicio": 32.64,
+        "fim": 36.76,
+        "emocao_facial": "fear"
+    },
+    {
+        "texto": "Mas, geralmente, eu sempre coloco uma atividade física. Dormir é sempre prioridade para mim.",
+        "inicio": 37.36,
+        "fim": 43.1,
+        "emocao_facial": "fear"
+    },
+    {
+        "texto": "E, às vezes, eu coloco... Tipo, eu gosto de ficar de boa, separar um tempinho do dia, tipo, para ficar sem fazer nada.",
+        "inicio": 43.6,
+        "fim": 52.4,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Nem que seja 30 minutos na graminha, entendeu? E gosto de ver um episódio, pelo menos, de série por dia.",
+        "inicio": 52.4,
+        "fim": 58.28,
+        "emocao_facial": "fear"
+    },
+    {
+        "texto": "Em quais momentos do seu dia você sente emoções mais positivas e em quais momentos sente as mais negativas?",
+        "inicio": 59.72,
+        "fim": 65.36,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Negativa é estudando pra Ivana. E positiva quando eu estou com a minha namorada, quando eu estou na graminha com as minhas amigas, quando eu estou bandejando com ela, essas coisas.",
+        "inicio": 66.38,
+        "fim": 76.88,
+        "emocao_facial": "happy"
+    },
+    {
+        "texto": "Em quais situações você se sente mais nervosa, estressada ou ansiosa?",
+        "inicio": 77.32,
+        "fim": 81.86,
+        "emocao_facial": "fear"
+    },
+    {
+        "texto": "Quando eu estou tentando estudar pra alguma matéria, que eu tenha dificuldade. Mas, se espante.",
+        "inicio": 81.86,
+        "fim": 86.8,
+        "emocao_facial": "fear"
+    },
+    {
+        "texto": "Você acredita que essas situações impactam na sua qualidade de vida?",
+        "inicio": 87.38,
+        "fim": 91.32,
+        "emocao_facial": "fear"
+    },
+    {
+        "texto": "Sim, mas não tanto.",
+        "inicio": 93.36,
+        "fim": 94.76,
+        "emocao_facial": "fear"
+    },
+    {
+        "texto": "Por quê?",
+        "inicio": 95.94,
+        "fim": 96.6,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Porque, tipo, quando eu estou tentando estudar, por exemplo, e estou com dificuldade em alguma matéria, é chato.",
+        "inicio": 98.46,
+        "fim": 104.48,
+        "emocao_facial": "fear"
+    },
+    {
+        "texto": "Às vezes eu fico meio ansiosa, mas aí eu respiro, me acalmo e volto.",
+        "inicio": 104.48,
+        "fim": 109.56,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Eu tento não deixar isso levar pra vida inteira, sabe?",
+        "inicio": 110.32000000000001,
+        "fim": 113.96,
+        "emocao_facial": "fear"
+    },
+    {
+        "texto": "Você acha que a sua rotina tem atrapalhado o seu desempenho na faculdade ou tem impactado negativamente suas relações?",
+        "inicio": 115.14,
+        "fim": 122.04,
+        "emocao_facial": "fear"
+    },
+    {
+        "texto": "Não, porque eu já organizo a minha rotina encaixando tudo que eu preciso.",
+        "inicio": 123.04,
+        "fim": 127.36,
+        "emocao_facial": "fear"
+    },
+    {
+        "texto": "E o que você faz pra manutenção da sua saúde mental?",
+        "inicio": 128.60000000000002,
+        "fim": 131.66,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Sono.",
+        "inicio": 133.02,
+        "fim": 133.5,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Comer bem, dormir bem, senão eu fico muito chata, não funciona.",
+        "inicio": 134.22,
+        "fim": 137.86,
+        "emocao_facial": "fear"
+    },
+    {
+        "texto": "E descansar pelo menos um pouquinho, igual eu falei.",
+        "inicio": 139.78000000000003,
+        "fim": 142.18,
+        "emocao_facial": "fear"
+    },
+    {
+        "texto": "Tipo, eu tenho que ter momentos sem fazer nada, entendeu?",
+        "inicio": 142.76,
+        "fim": 145.68,
+        "emocao_facial": "happy"
+    },
+    {
+        "texto": "E sem fazer nada também sem celular.",
+        "inicio": 145.98,
+        "fim": 148.26,
+        "emocao_facial": "happy"
+    },
+    {
+        "texto": "E o que você acha que a AAC poderia fazer no sentido de cuidar da saúde mental dos alunos?",
+        "inicio": 150.05999999999997,
+        "fim": 155.36,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Eu não sei.",
+        "inicio": 156.39999999999998,
+        "fim": 157.8,
+        "emocao_facial": "fear"
+    },
+    {
+        "texto": "Não faço ideia.",
+        "inicio": 158.22,
+        "fim": 159.06,
+        "emocao_facial": "sad"
+    }
+]

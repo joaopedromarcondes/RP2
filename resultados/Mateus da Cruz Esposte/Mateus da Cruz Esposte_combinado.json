@@ -1,0 +1,410 @@
+[
+    {
+        "texto": "Eu tenho que olhar pra você ou pra câmera?",
+        "inicio": 0.0,
+        "fim": 2.22,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Pra câmera, pra câmera.",
+        "inicio": 2.52,
+        "fim": 3.76,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Como é a sua rotina?",
+        "inicio": 4.52,
+        "fim": 5.8,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Cite brevemente as principais atividades.",
+        "inicio": 6.02,
+        "fim": 8.14,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Tem que ter horário?",
+        "inicio": 9.16,
+        "fim": 10.5,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Tá, vou falando horário.",
+        "inicio": 11.12,
+        "fim": 12.58,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Eu acordo relativamente cedo, 5 da manhã.",
+        "inicio": 12.84,
+        "fim": 15.76,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Pego umas 2 horas de trem e ônibus pra vir aqui pra Eachi.",
+        "inicio": 16.38,
+        "fim": 19.66,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Fico no período da Eachi, volto umas 2 horas de trem.",
+        "inicio": 20.3,
+        "fim": 24.08,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Aí quando eu não tenho nada muito apertado pra fazer,",
+        "inicio": 24.84,
+        "fim": 27.78,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "eu vou pra academia, volto de uma hora lá,",
+        "inicio": 27.78,
+        "fim": 30.58,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "volto pra casa, aí eu uso mais ou menos uma hora pra descansar,",
+        "inicio": 31.46,
+        "fim": 36.68,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "coisas do tipo, e o resto do tempo eu uso ou pra fazer as coisas que eu tô devendo da Eachi,",
+        "inicio": 36.76,
+        "fim": 40.88,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "ou alguns outros serviços que eu tenho que fazer por mim mesmo.",
+        "inicio": 41.38,
+        "fim": 44.1,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Tipo, estudar, tarefas, trabalhos, esse tipo de coisa.",
+        "inicio": 44.4,
+        "fim": 46.62,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Mas, em resumo, bem simples é isso.",
+        "inicio": 47.1,
+        "fim": 49.82,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "E o que você faz no seu tempo livre?",
+        "inicio": 50.62,
+        "fim": 52.42,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Pratica atividades físicas, dorme, tem momentos de lazer?",
+        "inicio": 52.6,
+        "fim": 55.66,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "O meu tempo livre?",
+        "inicio": 56.18,
+        "fim": 57.44,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Eu vou considerar que quando eu vou na academia é o tempo livre,",
+        "inicio": 58.34,
+        "fim": 60.84,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "então é só uma hora que eu fico, seria uma hora que eu fico livre,",
+        "inicio": 61.02,
+        "fim": 64.84,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "e eu dou preferência pra jogar videogame, é isso aí.",
+        "inicio": 65.3,
+        "fim": 68.6,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Mas como eu faço poucas vezes na semana,",
+        "inicio": 69.24000000000001,
+        "fim": 71.36,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "é esse o meu tempo livre.",
+        "inicio": 72.84,
+        "fim": 74.26,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "Eu jogo pouco, mas quando eu tô o tempo livre eu jogo.",
+        "inicio": 74.38,
+        "fim": 76.78,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Em quais momentos do seu dia você sente emoções mais positivas,",
+        "inicio": 77.66,
+        "fim": 81.56,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "e em quais momentos sente as mais negativas?",
+        "inicio": 81.62,
+        "fim": 83.82,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "As mais negativas definitivamente quando eu tô dentro do trem ou no ônibus.",
+        "inicio": 84.56,
+        "fim": 87.72,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Então, quando eu tô vindo ou saindo da Eachi,",
+        "inicio": 88.42,
+        "fim": 90.32,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "esses são os momentos mais negativos.",
+        "inicio": 90.4,
+        "fim": 92.06,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Os mais agradáveis,",
+        "inicio": 92.48,
+        "fim": 94.38,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "seria mais pelo período da tarde, da noite,",
+        "inicio": 95.98,
+        "fim": 98.76,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "em que eu tô livre,",
+        "inicio": 98.86,
+        "fim": 99.96,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "ou eu tô só resumindo as coisas da faculdade mesmo,",
+        "inicio": 100.18,
+        "fim": 103.36,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "em que eu tô mais tranquilo.",
+        "inicio": 103.58,
+        "fim": 104.56,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Em quais situações você se sente mais nervoso, estressado ou ansioso?",
+        "inicio": 105.25999999999999,
+        "fim": 109.66,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Vou voltar na situação do trem,",
+        "inicio": 110.48,
+        "fim": 112.0,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "ele realmente é a parte que mais me irrita no meu dia.",
+        "inicio": 112.1,
+        "fim": 114.0,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Você acredita que essas situações impactam na sua qualidade de vida?",
+        "inicio": 115.4,
+        "fim": 119.1,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Impacta bastante.",
+        "inicio": 120.19999999999999,
+        "fim": 121.0,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Bastante assim, pelo menos no começo do dia,",
+        "inicio": 122.28,
+        "fim": 124.38,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "em que eu não acordo muito legal não,",
+        "inicio": 124.54,
+        "fim": 126.16,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "só de pensar que eu tenho que pegar o trem de novo.",
+        "inicio": 126.56,
+        "fim": 129.24,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "É que esse é o maior incomum do meu dia,",
+        "inicio": 130.08,
+        "fim": 131.42,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "por isso que eu tô reforçando ele.",
+        "inicio": 131.48,
+        "fim": 133.1,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Mas é isso.",
+        "inicio": 133.38,
+        "fim": 133.9,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Você acha que a sua rotina tem atrapalhado seu desempenho na faculdade,",
+        "inicio": 134.56,
+        "fim": 138.56,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "ou impactado negativamente as suas relações?",
+        "inicio": 138.76,
+        "fim": 141.62,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Eu acho que atrapalha um pouco o desempenho na faculdade.",
+        "inicio": 142.52,
+        "fim": 144.4,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "São quatro horas que eu perco no dia,",
+        "inicio": 144.56,
+        "fim": 146.3,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "além de me deixar cansado,",
+        "inicio": 146.54,
+        "fim": 148.0,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "e eu acordo desnecessariamente cedo pra poder pegar o horário.",
+        "inicio": 148.3,
+        "fim": 152.56,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "O horário certo.",
+        "inicio": 152.94,
+        "fim": 153.86,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "E o que você faz pra manutenção da sua saúde mental?",
+        "inicio": 154.35999999999999,
+        "fim": 157.42,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Eu não faço nenhum tipo de terapia.",
+        "inicio": 159.16,
+        "fim": 161.28,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Eu não...",
+        "inicio": 162.26,
+        "fim": 163.06,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Acho que eu nunca fui muito de me preocupar com essa parte, não.",
+        "inicio": 163.06,
+        "fim": 165.86,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "Então, acho que o meu momento de lazer mesmo,",
+        "inicio": 166.3,
+        "fim": 168.44,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "vai ser o que eu uso pra manutenção da minha saúde mental.",
+        "inicio": 168.62,
+        "fim": 172.44,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Então...",
+        "inicio": 201.01999999999998,
+        "fim": 202.42,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "Isso daí poderia ser um auxílio,",
+        "inicio": 202.42,
+        "fim": 203.76,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "mas não...",
+        "inicio": 203.94,
+        "fim": 205.18,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "",
+        "inicio": 205.18,
+        "fim": 205.18,
+        "emocao_facial": "indefinido"
+    },
+    {
+        "texto": "Não...",
+        "inicio": 205.18,
+        "fim": 205.62,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "Acho que isso.",
+        "inicio": 207.28,
+        "fim": 208.16,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Se eu pudesse optar por uma das coisas, seria isso.",
+        "inicio": 208.46,
+        "fim": 210.72,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "Sim.",
+        "inicio": 211.54,
+        "fim": 211.98,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Hum-hum.",
+        "inicio": 211.98,
+        "fim": 212.14,
+        "emocao_facial": "neutral"
+    }
+]

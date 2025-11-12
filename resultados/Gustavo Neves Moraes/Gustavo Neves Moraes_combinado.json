@@ -1,0 +1,224 @@
+[
+    {
+        "texto": "Vou começar então.",
+        "inicio": 0.0,
+        "fim": 1.42,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Como é a sua rotina? Cite brevemente as principais atividades.",
+        "inicio": 2.52,
+        "fim": 6.62,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Eu acordo, já venho direto, já demoro meia hora para me arrumar e já vou direto para a faculdade.",
+        "inicio": 7.859999999999998,
+        "fim": 14.76,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "Se tem alguma atividade complementar interessante para mim ou alguma reunião de entidade,",
+        "inicio": 15.1,
+        "fim": 20.14,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "eu compareço na AASH, mas geralmente eu volto para casa direto depois do fim das aulas,",
+        "inicio": 20.32,
+        "fim": 24.94,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "ao modo aqui mesmo no Bandejão.",
+        "inicio": 25.04,
+        "fim": 26.44,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "E chegando em casa, se for de academia eu vou na academia, mas geralmente é só academia, casa, faculdade.",
+        "inicio": 26.44,
+        "fim": 34.14,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "O que você faz no seu tempo livre? Pratica atividades físicas, dorme bastante, tem momentos de lazer?",
+        "inicio": 35.94,
+        "fim": 42.7,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Momentos de lazer são um tanto quanto escassos, sinceramente, mas momentos livres eu gosto geralmente de andar de bike,",
+        "inicio": 43.52,
+        "fim": 51.14,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "que é um pouco de exercício físico e às vezes jogar um videogame RPG.",
+        "inicio": 51.46,
+        "fim": 55.58,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "Em quais momentos do seu dia você sente emoções mais positivas e em quais momentos você sente as mais negativas?",
+        "inicio": 56.5,
+        "fim": 63.98,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Sinceramente, eu gosto bastante do curso que eu faço, em geral das matérias, principalmente das que se correspondem à computação.",
+        "inicio": 64.88000000000001,
+        "fim": 73.28,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "Então, eu sou uma pessoa que considera que eu fico feliz enquanto eu estudo, até mesmo aqui com os professores.",
+        "inicio": 73.6,
+        "fim": 78.94,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "Acho que esses sentimentos negativos são, sinceramente, bem poucos.",
+        "inicio": 78.94,
+        "fim": 84.4,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "Não tem muitos, não. Pelo menos não por enquanto, no começo do semestre.",
+        "inicio": 85.1,
+        "fim": 88.84,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "Em quais situações você se sente mais nervoso, estressado ou ansioso?",
+        "inicio": 89.62,
+        "fim": 94.64,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Principalmente levando em conta a faculdade, principalmente quando acumulam muitas coisas, né?",
+        "inicio": 96.26,
+        "fim": 101.88,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "A época de final de semestre, principalmente, ou aquela semana infernal que tem várias perguntas e trabalhos para entregar.",
+        "inicio": 101.88,
+        "fim": 107.44,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "Você acredita que essas situações impactam a sua qualidade de vida? E por quê?",
+        "inicio": 108.38,
+        "fim": 113.04,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Com toda certeza. Com certeza. Por exemplo, respondendo como exemplo, né?",
+        "inicio": 113.44,
+        "fim": 118.62,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "Eu percebi que antes eu acordava normalmente, eu já acordava sem sono, acordava disposto.",
+        "inicio": 119.32,
+        "fim": 124.62,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "Rindio, eu acordo sempre cansado, eu tenho que lutar contra o sono durante a maioria das aulas.",
+        "inicio": 124.82,
+        "fim": 129.08,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "Você acha que a sua rotina tem atrapalhado o seu desempenho na faculdade ou tem impactado negativamente as suas relações?",
+        "inicio": 130.42,
+        "fim": 137.34,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "Não.",
+        "inicio": 138.92,
+        "fim": 139.48,
+        "emocao_facial": "fear"
+    },
+    {
+        "texto": "O que você faz para manutenção da sua saúde mental?",
+        "inicio": 140.9,
+        "fim": 144.16,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Manutenção da sua saúde mental? Eu creio que eu não tenho problemas de saúde mental.",
+        "inicio": 145.78,
+        "fim": 149.46,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "Eu tento sempre praticar exercício quando eu estou estressado, porque é algo que eu gosto, mas, para tiver exercício, eu gosto de andar por aí, andar de bar, bicicleta e etc.",
+        "inicio": 149.8,
+        "fim": 159.44,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "É o que me acaba mais.",
+        "inicio": 159.82,
+        "fim": 160.98,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "O que você acha que a EASH poderia fazer no sentido de cuidar da saúde mental dos alunos?",
+        "inicio": 161.72,
+        "fim": 166.94,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Acho que, principalmente, com quem tem esses problemas, tem...",
+        "inicio": 167.58,
+        "fim": 172.92,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "Divulgar mais questões de assistência, porque, se não me engano, tem até aqui na faculdade, mas não é tão divulgado.",
+        "inicio": 172.92,
+        "fim": 179.42,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "Principalmente, eu só sei porque foi chegado quando eu cheguei aqui na faculdade, mas nunca depois disso eu ouvi falar sobre.",
+        "inicio": 179.56,
+        "fim": 187.76,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "É isso.",
+        "inicio": 188.98000000000002,
+        "fim": 189.88,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "E aí",
+        "inicio": 189.88,
+        "fim": 190.0,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "E aí",
+        "inicio": 190.0,
+        "fim": 190.02,
+        "emocao_facial": "indefinido"
+    },
+    {
+        "texto": "E aí",
+        "inicio": 190.02,
+        "fim": 190.1,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "E aí",
+        "inicio": 190.1,
+        "fim": 190.34,
+        "emocao_facial": "sad"
+    }
+]

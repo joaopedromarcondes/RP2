@@ -1,0 +1,152 @@
+[
+    {
+        "texto": "Como é a sua rotina? Fite brevemente as principais atividades.",
+        "inicio": 0.7999999999999994,
+        "fim": 5.16,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Eu acordo, como qualquer coisa, saio correndo para a Iaxi e demoro uma hora e dez no metrô,",
+        "inicio": 5.82,
+        "fim": 12.44,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "estudo, volto para casa, rezo para chegar tempo suficiente a hora de dormir, acordo dia seguinte e repito.",
+        "inicio": 13.139999999999999,
+        "fim": 20.88,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "O que você faz no seu tempo livre? Pratica atividades físicas, dorme e tem momentos de lazer?",
+        "inicio": 22.1,
+        "fim": 27.42,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Normalmente eu jogo, estudo de vez em quando, quando tem prova no dia seguinte e durmo, só.",
+        "inicio": 28.779999999999998,
+        "fim": 36.12,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Em quais momentos do seu dia você sente emoções mais positivas e em quais momentos sente as mais negativas?",
+        "inicio": 37.28,
+        "fim": 43.64,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Negativa de manhã, que é o voltado que tem que acordar mais um dia.",
+        "inicio": 44.32,
+        "fim": 47.62,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Positiva, sei lá, lá para... eu estou voltando para a Iaxi, voltando para casa,",
+        "inicio": 48.34,
+        "fim": 53.28,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "no período que eu fico no metrô eu fico mais tranquilo que acabou o dia.",
+        "inicio": 53.64,
+        "fim": 56.34,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Em quais situações você se sente mais nervoso, estressado ou ansioso?",
+        "inicio": 57.42,
+        "fim": 61.84,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Normalmente em véspera de prova.",
+        "inicio": 62.6,
+        "fim": 63.96,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Você acredita que essas situações impactam a sua qualidade de vida?",
+        "inicio": 65.22,
+        "fim": 69.26,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Assim, pela quantidade de prova, por enquanto não, mas provavelmente vai no futuro.",
+        "inicio": 70.24,
+        "fim": 75.0,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "No futuro vai incomodar um pouco.",
+        "inicio": 75.28,
+        "fim": 77.32,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Você acha que a sua rotina tem atrapalhado o seu desempenho na faculdade",
+        "inicio": 78.26,
+        "fim": 81.9,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "ou tem impactado negativamente suas relações?",
+        "inicio": 81.9,
+        "fim": 84.86,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Cara, na faculdade, ter que sair, passar duas horas no metrô todo dia, pode impactar um pouco,",
+        "inicio": 85.5,
+        "fim": 92.06,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "mas eu acho que não muito, mas relações pessoais sim.",
+        "inicio": 92.16,
+        "fim": 95.54,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Sim.",
+        "inicio": 96.18,
+        "fim": 96.26,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "O que você faz para a manutenção da sua saúde mental?",
+        "inicio": 97.46,
+        "fim": 100.44,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Eu tiro um dia para esparecer um sábado, um domingo, passeio com a família, jogo um pouco.",
+        "inicio": 101.38,
+        "fim": 106.86,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "O que você acha que a Iaxi poderia fazer no sentido de cuidar da saúde mental dos alunos?",
+        "inicio": 108.22,
+        "fim": 113.2,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Olha, acho que não muito a não ser divulgar sobre, né?",
+        "inicio": 114.46000000000001,
+        "fim": 119.24,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Sobre, assim, não tem como cuidar ativamente, mas avisar sobre os cuidados e tal é importante.",
+        "inicio": 119.52,
+        "fim": 125.72,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "É isso.",
+        "inicio": 125.72,
+        "fim": 127.68,
+        "emocao_facial": "neutral"
+    }
+]

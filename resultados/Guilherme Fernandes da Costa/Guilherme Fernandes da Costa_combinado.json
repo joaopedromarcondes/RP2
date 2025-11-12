@@ -1,0 +1,152 @@
+[
+    {
+        "texto": "Como é a sua rotina? Cite brevemente as principais atividades.",
+        "inicio": 1.1399999999999995,
+        "fim": 5.0,
+        "emocao_facial": "angry"
+    },
+    {
+        "texto": "Eu acordo mais ou menos às 6h15, pego ônibus, venho para cá, ônibus vou para o metrô, venho para a EACHE,",
+        "inicio": 6.64,
+        "fim": 19.0,
+        "emocao_facial": "angry"
+    },
+    {
+        "texto": "depois vou para o estágio que fica na Paulista e umas 8h, 8h30 eu consigo chegar em casa.",
+        "inicio": 19.04,
+        "fim": 25.72,
+        "emocao_facial": "angry"
+    },
+    {
+        "texto": "O que você faz no seu tempo livre? Pratica atividades físicas, dorme, tem momentos de lazer?",
+        "inicio": 26.980000000000004,
+        "fim": 32.84,
+        "emocao_facial": "angry"
+    },
+    {
+        "texto": "Eu gosto de dormir e prefiro ficar jogando.",
+        "inicio": 33.52,
+        "fim": 39.06,
+        "emocao_facial": "angry"
+    },
+    {
+        "texto": "Em quais momentos do seu dia você sente emoções mais positivas e em quais momentos sente as mais negativas?",
+        "inicio": 40.34,
+        "fim": 47.02,
+        "emocao_facial": "angry"
+    },
+    {
+        "texto": "Eu normalmente sinto as mais negativas quando todo momento de estresse e no resto do dia é misto.",
+        "inicio": 48.88,
+        "fim": 54.3,
+        "emocao_facial": "angry"
+    },
+    {
+        "texto": "Em quais situações você se sente mais nervoso, estressado ou ansioso?",
+        "inicio": 55.72,
+        "fim": 60.3,
+        "emocao_facial": "angry"
+    },
+    {
+        "texto": "Principalmente, como eu estou fazendo estágio, eu tenho muito relatório, eu tenho muito repórter de relatório",
+        "inicio": 62.18,
+        "fim": 68.5,
+        "emocao_facial": "angry"
+    },
+    {
+        "texto": "e normalmente sempre quando eu recebo um repórter é um momento estressante.",
+        "inicio": 68.5,
+        "fim": 71.64,
+        "emocao_facial": "angry"
+    },
+    {
+        "texto": "Você acredita que essas situações impactam na sua qualidade de vida?",
+        "inicio": 73.02,
+        "fim": 77.02,
+        "emocao_facial": "angry"
+    },
+    {
+        "texto": "Sim.",
+        "inicio": 77.6,
+        "fim": 77.98,
+        "emocao_facial": "angry"
+    },
+    {
+        "texto": "Por quê?",
+        "inicio": 77.98,
+        "fim": 79.4,
+        "emocao_facial": "angry"
+    },
+    {
+        "texto": "Não é saudável você se estressar tanto.",
+        "inicio": 80.74,
+        "fim": 83.82,
+        "emocao_facial": "angry"
+    },
+    {
+        "texto": "Você acha que a sua rotina tem atrapalhado o seu desempenho na faculdade ou tem impactado negativamente suas relações?",
+        "inicio": 85.48,
+        "fim": 92.7,
+        "emocao_facial": "angry"
+    },
+    {
+        "texto": "Não, não tenho achado isso. Pelo contrário, me ajuda a organizar melhor meu tempo e meu espaço.",
+        "inicio": 93.22,
+        "fim": 100.1,
+        "emocao_facial": "angry"
+    },
+    {
+        "texto": "Eu faço um trabalho com os nossos alunos.",
+        "inicio": 100.97999999999999,
+        "fim": 101.58,
+        "emocao_facial": "angry"
+    },
+    {
+        "texto": "E o que você faz para a manutenção da sua saúde mental?",
+        "inicio": 101.58,
+        "fim": 104.22,
+        "emocao_facial": "angry"
+    },
+    {
+        "texto": "Eu converso com os meus pais.",
+        "inicio": 105.30000000000001,
+        "fim": 107.74,
+        "emocao_facial": "angry"
+    },
+    {
+        "texto": "O que você acha que a EASH poderia fazer no sentido de cuidar da saúde mental dos alunos?",
+        "inicio": 109.22,
+        "fim": 114.6,
+        "emocao_facial": "angry"
+    },
+    {
+        "texto": "Melhorar a comunicação entre professores e alunos.",
+        "inicio": 116.96000000000001,
+        "fim": 120.7,
+        "emocao_facial": "angry"
+    },
+    {
+        "texto": "バrdёнismo",
+        "inicio": 120.7,
+        "fim": 120.74,
+        "emocao_facial": "angry"
+    },
+    {
+        "texto": "Vamos cá?",
+        "inicio": 120.74,
+        "fim": 120.96,
+        "emocao_facial": "angry"
+    },
+    {
+        "texto": "Vamos cá?",
+        "inicio": 123.04,
+        "fim": 123.3,
+        "emocao_facial": "angry"
+    },
+    {
+        "texto": "E aí",
+        "inicio": 123.3,
+        "fim": 123.32,
+        "emocao_facial": "indefinido"
+    }
+]

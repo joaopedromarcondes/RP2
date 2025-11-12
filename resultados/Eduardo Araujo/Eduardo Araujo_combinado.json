@@ -1,0 +1,458 @@
+[
+    {
+        "texto": "Como é a sua rotina? Cite brevemente as principais atividades.",
+        "inicio": 1.4800000000000004,
+        "fim": 5.78,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Minha rotina? Olha, eu posto bastante exercício físico, ando muito de bicicleta e basicamente definindo minha rotina num dia normal,",
+        "inicio": 6.18,
+        "fim": 15.4,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "seria acordar, andar de bicicleta para vir para a faculdade, que é o meu principal meio de transporte.",
+        "inicio": 15.54,
+        "fim": 19.88,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Aí eu estudo no período do matutino, então faço as aulas regulares das 7 horas, das 8 horas até meio dia.",
+        "inicio": 20.48,
+        "fim": 26.68,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Depois de meio dia eu tenho um cronograma que eu deixo pelo menos até 2 horas para eu fazer coisas de lazer,",
+        "inicio": 26.68,
+        "fim": 33.2,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "então posso ficar conversando, papiando ou vou para algum lugar curtir.",
+        "inicio": 33.26,
+        "fim": 36.78,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "E aí a partir das 2 horas até as 6 horas eu volto a estudar, mas essas matérias que eu estudei de noite, de manhã.",
+        "inicio": 37.38,
+        "fim": 42.84,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "E aí de noite eu faço academia e depois eu faço mais estudos e aí eu volto para a casa de bicicleta.",
+        "inicio": 43.08,
+        "fim": 50.52,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "E o que você faz no seu tempo livre? Pratica atividades físicas, dorme e tem momentos de lazer?",
+        "inicio": 51.74,
+        "fim": 56.98,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Ah, então no meu tempo livre realmente eu ou durmo ou eu jogo alguma coisa, porque eu sou bem fã de jogos.",
+        "inicio": 57.38,
+        "fim": 63.68,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "E praticar esporte eu tenho priorizado bastante agora, né?",
+        "inicio": 64.68,
+        "fim": 68.7,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Então geralmente quando eu tenho tempo livre eu só pego para dar uma volta aqui com a minha bicicleta,",
+        "inicio": 68.78,
+        "fim": 72.98,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "ou até mesmo só ficar jogando algum vôlei, futebol.",
+        "inicio": 73.16,
+        "fim": 75.52,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Em quais momentos do seu dia você sente emoções mais positivas e em quais momentos sente as mais negativas?",
+        "inicio": 76.04,
+        "fim": 82.1,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Olha, depende. Eu acho que durante as aulas às vezes é complicado,",
+        "inicio": 82.5,
+        "fim": 85.52,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "porque quando eu fico meio que na inércia ali na aula sem entender muita coisa eu me sinto meio mal.",
+        "inicio": 85.68,
+        "fim": 91.0,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Tipo, caramba, eu sou muito burro, mano, não estou entendendo direito.",
+        "inicio": 91.1,
+        "fim": 93.52,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Aí, bom, esse é um momento ruim.",
+        "inicio": 94.06,
+        "fim": 96.12,
+        "emocao_facial": "happy"
+    },
+    {
+        "texto": "A outra parte era os momentos positivos?",
+        "inicio": 96.78,
+        "fim": 98.64,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Bom, os momentos positivos é quando eu estou geralmente com as pessoas,",
+        "inicio": 99.72,
+        "fim": 103.52,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "que aí eu posso me desligar um pouco e conversar com as pessoas.",
+        "inicio": 103.52,
+        "fim": 106.66,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "E a faculdade é cheia de pessoas, então eu acho que quando eu estou ali em conjunto,",
+        "inicio": 106.98,
+        "fim": 110.54,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "seja ali no laboratório com os meus amigos, ou até mesmo quando eu estou no meu grupinho ali no bandejão,",
+        "inicio": 110.66,
+        "fim": 114.5,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "eu acho que são momentos cruciais para eu melhorar o meu dia.",
+        "inicio": 114.62,
+        "fim": 116.8,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Em quais situações você se sente mais nervoso, estressado ou ansioso?",
+        "inicio": 117.8,
+        "fim": 122.08,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Ah, isso no contexto da faculdade?",
+        "inicio": 123.56,
+        "fim": 125.36,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Isso.",
+        "inicio": 125.74,
+        "fim": 126.1,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Bom, no contexto da faculdade é quando eu vejo coisas que eu não gostaria de ver, né?",
+        "inicio": 126.3,
+        "fim": 129.98,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Então, eu acho que seria o contexto onde eu realmente fico mais nervoso.",
+        "inicio": 129.98,
+        "fim": 134.48,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Então, quando eu vejo ali uma pessoa que eu estou tendo alguns problemas,",
+        "inicio": 134.58,
+        "fim": 137.02,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "ou, voltando à pergunta anterior, quando eu estou ali na aula e eu vejo que eu não estou me fluindo muito bem.",
+        "inicio": 138.57999999999998,
+        "fim": 142.88,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Ali me dá realmente uma sensação de nervosismo puro.",
+        "inicio": 143.04,
+        "fim": 145.72,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "E no contexto geral da vida mesmo?",
+        "inicio": 146.06,
+        "fim": 148.02,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Cara, no contexto geral da vida é quando eu não consigo cumprir minhas metas.",
+        "inicio": 148.44,
+        "fim": 151.7,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Geralmente é o fator crucial.",
+        "inicio": 152.2,
+        "fim": 155.58,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "É quando eu tenho que cumprir alguma meta e ou demora demais para conseguir chegar nela,",
+        "inicio": 155.84,
+        "fim": 160.38,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "ou às vezes eu acabo não conseguindo.",
+        "inicio": 160.6,
+        "fim": 162.14,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "É a coisa que me deixa mais irritado e frustrado.",
+        "inicio": 162.26,
+        "fim": 164.54,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Você acredita que essas situações impactam na sua qualidade de vida?",
+        "inicio": 165.26,
+        "fim": 168.88,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Com certeza.",
+        "inicio": 169.02,
+        "fim": 169.76,
+        "emocao_facial": "happy"
+    },
+    {
+        "texto": "Eu acho que se eu conseguisse, pelo menos, lidar melhor com essas situações,",
+        "inicio": 170.18,
+        "fim": 173.52,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "eu teria uma qualidade de vida bem melhor.",
+        "inicio": 173.8,
+        "fim": 175.98,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Não é à toa que eu optei por seguir o meu tempo livre com atividades esportivas,",
+        "inicio": 175.98,
+        "fim": 179.52,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "que fazem com que os níveis de estresse se baixem bastante.",
+        "inicio": 179.72,
+        "fim": 182.54,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Você acha que a sua rotina tem atrapalhado o seu desempenho na faculdade",
+        "inicio": 183.6,
+        "fim": 187.1,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "ou impactado negativamente suas relações?",
+        "inicio": 187.1,
+        "fim": 189.38,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "De forma alguma.",
+        "inicio": 189.64,
+        "fim": 190.7,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Na verdade, eu estruturei minha rotina para conseguir ter um desempenho melhor na faculdade.",
+        "inicio": 190.98,
+        "fim": 194.32,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Então, lá voltando, eu tento fazer pelo menos uma atividade física todo dia,",
+        "inicio": 194.56,
+        "fim": 200.24,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "segunda a segunda.",
+        "inicio": 200.98000000000002,
+        "fim": 202.24,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Então, sempre fiz.",
+        "inicio": 202.76,
+        "fim": 203.52,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "E deixar ela bem organizadinha faz com que, né,",
+        "inicio": 204.39999999999998,
+        "fim": 207.1,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "ter esses intervalos de momento de descanso, momento de estudo,",
+        "inicio": 207.1,
+        "fim": 209.7,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "faz com que ela seja bem equilibrada.",
+        "inicio": 209.78,
+        "fim": 211.04,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Então, eu acho que, de certa forma, não.",
+        "inicio": 211.22,
+        "fim": 213.14,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "É inevitável que fique expressado.",
+        "inicio": 213.52,
+        "fim": 215.2,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "O que você faz para manutenção da sua saúde mental?",
+        "inicio": 216.02,
+        "fim": 218.6,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Nada.",
+        "inicio": 219.22000000000003,
+        "fim": 219.58,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "O que você acha que a EACH poderia fazer no sentido de cuidar da saúde mental dos alunos?",
+        "inicio": 220.82,
+        "fim": 225.64,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Ah, a EACH já tem uns projetos, né?",
+        "inicio": 225.88,
+        "fim": 227.38,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Tem o NOW.",
+        "inicio": 227.44,
+        "fim": 227.94,
+        "emocao_facial": "happy"
+    },
+    {
+        "texto": "Conheço o NOW, né?",
+        "inicio": 229.62,
+        "fim": 230.58,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "E AACH, mas sempre tem gente fazendo projeto para incentivar ou para ver como é que está a qualidade de vida dos alunos,",
+        "inicio": 230.58,
+        "fim": 235.74,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "como esse projeto aqui, imagina.",
+        "inicio": 235.84,
+        "fim": 237.08,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Mas, assim, são coisas que, pelo menos para mim, eu acho que, assim, pessoalmente, eu acho muito difícil de eu me direcionar a essas coisas.",
+        "inicio": 238.85999999999999,
+        "fim": 246.84,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Porque eu gosto de resolver meus problemas pessoais sozinhos.",
+        "inicio": 246.86,
+        "fim": 250.7,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "O que, de certa forma, é ruim, né?",
+        "inicio": 250.92,
+        "fim": 252.32,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Acho que é uma característica bem...",
+        "inicio": 252.6,
+        "fim": 254.62,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Meio minha, que, tipo, ah, eu quero resolver o meu problema e só vou falar do meu problema se eu resolver ele.",
+        "inicio": 254.62,
+        "fim": 259.24,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Então, enquanto eu não resolver o meu problema, eu vou ficar, pô, lidando com ele sozinho.",
+        "inicio": 259.3,
+        "fim": 262.74,
+        "emocao_facial": "angry"
+    },
+    {
+        "texto": "E isso é ruim, né?",
+        "inicio": 263.04,
+        "fim": 263.86,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Mas é uma característica minha.",
+        "inicio": 264.2,
+        "fim": 265.22,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Então, eu não acho que a EACH, finalmente, poderia fazer alguma coisa para melhorar a sua qualidade de vida.",
+        "inicio": 265.34,
+        "fim": 268.64,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Uhum.",
+        "inicio": 269.66,
+        "fim": 269.94,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "",
+        "inicio": 269.94,
+        "fim": 269.94,
+        "emocao_facial": "indefinido"
+    },
+    {
+        "texto": "",
+        "inicio": 269.94,
+        "fim": 269.94,
+        "emocao_facial": "indefinido"
+    }
+]

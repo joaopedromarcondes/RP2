@@ -1,0 +1,662 @@
+[
+    {
+        "texto": "É uma foto ou vídeo?",
+        "inicio": 0.0,
+        "fim": 1.42,
+        "emocao_facial": "happy"
+    },
+    {
+        "texto": "É um vídeo.",
+        "inicio": 1.52,
+        "fim": 2.0,
+        "emocao_facial": "happy"
+    },
+    {
+        "texto": "Ah, tá.",
+        "inicio": 2.08,
+        "fim": 2.42,
+        "emocao_facial": "happy"
+    },
+    {
+        "texto": "Pode ir?",
+        "inicio": 2.56,
+        "fim": 2.98,
+        "emocao_facial": "happy"
+    },
+    {
+        "texto": "Sim.",
+        "inicio": 3.56,
+        "fim": 3.82,
+        "emocao_facial": "happy"
+    },
+    {
+        "texto": "Tá.",
+        "inicio": 4.3,
+        "fim": 4.38,
+        "emocao_facial": "happy"
+    },
+    {
+        "texto": "Como é a sua rotina?",
+        "inicio": 5.4,
+        "fim": 6.72,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Cite brevemente as principais atividades.",
+        "inicio": 7.02,
+        "fim": 8.98,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Normalmente eu acordo às oito da manhã.",
+        "inicio": 10.08,
+        "fim": 12.42,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Eu tenho um pouquinho de tempo antes de vir pra faculdade.",
+        "inicio": 13.920000000000002,
+        "fim": 17.66,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Ou eu me exercito ou eu estudo.",
+        "inicio": 18.38,
+        "fim": 22.58,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Normalmente eu faço dança aqui na Iache, que é muito bom pra minha saúde mental, inclusive.",
+        "inicio": 22.74,
+        "fim": 26.96,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "E academia também é muito bom.",
+        "inicio": 27.48,
+        "fim": 29.8,
+        "emocao_facial": "fear"
+    },
+    {
+        "texto": "E aí eu venho pra faculdade.",
+        "inicio": 30.66,
+        "fim": 32.0,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Eu tenho aula das duas horas da tarde até as seis horas da tarde.",
+        "inicio": 32.38,
+        "fim": 37.46,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Eu demoro aproximadamente uma hora e meia, duas horas pra chegar na minha casa.",
+        "inicio": 38.0,
+        "fim": 43.24,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Que eu diria que impacta bastante minha saúde mental.",
+        "inicio": 43.46,
+        "fim": 46.52,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Porque é bem cansativo.",
+        "inicio": 46.96,
+        "fim": 48.72,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Chego em casa, janto, estudo novamente.",
+        "inicio": 49.14,
+        "fim": 51.9,
+        "emocao_facial": "fear"
+    },
+    {
+        "texto": "E aí eu tenho um momento pra descontrair e depois eu vou dormir.",
+        "inicio": 52.8,
+        "fim": 58.06,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "E o que você faz no seu tempo livre?",
+        "inicio": 58.739999999999995,
+        "fim": 60.9,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Pratica atividades físicas?",
+        "inicio": 61.1,
+        "fim": 62.48,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Dorme e tem momentos de lazer?",
+        "inicio": 62.64,
+        "fim": 63.94,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Sim.",
+        "inicio": 64.5,
+        "fim": 65.06,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Eu sempre tiro um tempo pra fazer algum tipo de lazer.",
+        "inicio": 65.06,
+        "fim": 73.02,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Antes uma coisa que atrapalhava muito o meu momento de lazer era o meu celular.",
+        "inicio": 73.32,
+        "fim": 78.16,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "Então eu tenho tempo de limite de aplicativo.",
+        "inicio": 78.44,
+        "fim": 83.26,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Então eu uso esse tempo de aplicativo e depois eu faço alguma outra coisa.",
+        "inicio": 83.26,
+        "fim": 87.68,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Que normalmente envolve atividade física.",
+        "inicio": 87.8,
+        "fim": 90.08,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Ou esporte, dança, enfim.",
+        "inicio": 90.6,
+        "fim": 94.9,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Ou, enfim, conviver com meus amigos e família.",
+        "inicio": 95.54,
+        "fim": 98.0,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Em quais momentos do seu dia você sente emoções mais positivas?",
+        "inicio": 98.0,
+        "fim": 102.22,
+        "emocao_facial": "happy"
+    },
+    {
+        "texto": "E em quais momentos sente as mais negativas?",
+        "inicio": 102.24,
+        "fim": 104.72,
+        "emocao_facial": "surprise"
+    },
+    {
+        "texto": "Eu não diria que eu sinto emoções negativas todos os dias.",
+        "inicio": 108.8,
+        "fim": 113.62,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Eu acho que é muito específico.",
+        "inicio": 113.66,
+        "fim": 115.28,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Mas eu sinto felicidade em coisas simples, às vezes.",
+        "inicio": 115.66,
+        "fim": 119.66,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Em conviver com a minha família, com um animal, enfim.",
+        "inicio": 119.86,
+        "fim": 123.42,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Ou quando eu vejo alguma coisa bonita que me faz lembrar de alguma coisa, alguma música.",
+        "inicio": 123.6,
+        "fim": 127.12,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Então coisa simples.",
+        "inicio": 127.12,
+        "fim": 128.9,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "E tristeza são episódios, né?",
+        "inicio": 129.22,
+        "fim": 132.6,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Então não são constantes.",
+        "inicio": 132.74,
+        "fim": 134.9,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "Mas normalmente a tristeza é gatilhada por alguma coisa.",
+        "inicio": 135.06,
+        "fim": 138.26,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Enfim, mais complexa.",
+        "inicio": 138.26,
+        "fim": 139.94,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Em quais situações você se sente mais nervosa, estressada ou ansiosa?",
+        "inicio": 140.98,
+        "fim": 145.68,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Eu diria que...",
+        "inicio": 147.98,
+        "fim": 150.12,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Eu não sou uma pessoa muito ansiosa.",
+        "inicio": 151.42,
+        "fim": 153.42,
+        "emocao_facial": "fear"
+    },
+    {
+        "texto": "Mas às vezes eu fico...",
+        "inicio": 153.42,
+        "fim": 155.42,
+        "emocao_facial": "fear"
+    },
+    {
+        "texto": "Quando...",
+        "inicio": 158.68,
+        "fim": 159.26,
+        "emocao_facial": "happy"
+    },
+    {
+        "texto": "Eu acho que...",
+        "inicio": 162.92000000000002,
+        "fim": 164.42,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "Eu não sei quando eu fico ansiosa.",
+        "inicio": 166.45999999999998,
+        "fim": 168.3,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "Eu não sei.",
+        "inicio": 170.48000000000002,
+        "fim": 171.28,
+        "emocao_facial": "happy"
+    },
+    {
+        "texto": "Eu posso pular?",
+        "inicio": 171.34,
+        "fim": 171.9,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Eu realmente não sei.",
+        "inicio": 172.22,
+        "fim": 173.6,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Aí a próxima era...",
+        "inicio": 174.94,
+        "fim": 176.32,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Você acredita que essas situações impactam na sua qualidade de vida?",
+        "inicio": 176.32,
+        "fim": 179.88,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Algum momento que você fica nervosa?",
+        "inicio": 181.18,
+        "fim": 183.24,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Sim.",
+        "inicio": 183.44,
+        "fim": 183.54,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "É, normalmente pressão acadêmica, talvez, né?",
+        "inicio": 183.9,
+        "fim": 187.22,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Que é uma coisa mais longitudinal.",
+        "inicio": 187.22,
+        "fim": 188.44,
+        "emocao_facial": "fear"
+    },
+    {
+        "texto": "Mas impacta bastante.",
+        "inicio": 188.46,
+        "fim": 190.16,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "E...",
+        "inicio": 191.4,
+        "fim": 192.04,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Impacta, né?",
+        "inicio": 192.89999999999998,
+        "fim": 193.64,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "Bastante.",
+        "inicio": 194.12,
+        "fim": 194.64,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Você acha que a sua rotina tem atrapalhado o seu desempenho na faculdade?",
+        "inicio": 196.36,
+        "fim": 200.36,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Ou tem impactado negativamente suas relações?",
+        "inicio": 200.58,
+        "fim": 202.74,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Eu diria que sim.",
+        "inicio": 204.48000000000002,
+        "fim": 205.98,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Por causa da...",
+        "inicio": 206.56,
+        "fim": 207.64,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Principalmente do transporte público.",
+        "inicio": 208.57999999999998,
+        "fim": 209.92,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Eu acho que...",
+        "inicio": 210.12,
+        "fim": 211.06,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Normalmente quem estuda na IACH perde bastante tempo vindo pra cá.",
+        "inicio": 211.06,
+        "fim": 214.56,
+        "emocao_facial": "fear"
+    },
+    {
+        "texto": "E a gente perde bastante tempo de vida só pra chegar nos lugares.",
+        "inicio": 214.86,
+        "fim": 217.98,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "Acho que todo mundo que vive aqui em São Paulo, na verdade.",
+        "inicio": 218.36,
+        "fim": 220.44,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Então eu diria que isso.",
+        "inicio": 221.26,
+        "fim": 222.3,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "O que você faz pra manutenção da sua saúde mental?",
+        "inicio": 222.84,
+        "fim": 225.64,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "É...",
+        "inicio": 227.76000000000002,
+        "fim": 228.24,
+        "emocao_facial": "happy"
+    },
+    {
+        "texto": "Eu diria que...",
+        "inicio": 229.66,
+        "fim": 231.28,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Movimentar meu corpo.",
+        "inicio": 231.28,
+        "fim": 232.44,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "É...",
+        "inicio": 233.5,
+        "fim": 233.98,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Ter contato com a natureza.",
+        "inicio": 233.98,
+        "fim": 235.5,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Incluindo, né?",
+        "inicio": 235.98000000000002,
+        "fim": 236.72,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Animais.",
+        "inicio": 236.86,
+        "fim": 237.34,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "E, enfim.",
+        "inicio": 237.68,
+        "fim": 238.06,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Parar um pouco pra observar as coisas, né?",
+        "inicio": 238.32,
+        "fim": 240.86,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Simples e o que tá acontecendo na sua volta.",
+        "inicio": 241.26,
+        "fim": 243.74,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Porque eu acho que a gente...",
+        "inicio": 244.36,
+        "fim": 245.94,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "Hoje em dia é muito...",
+        "inicio": 245.94,
+        "fim": 247.14,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "Centrado em nós mesmos.",
+        "inicio": 247.14,
+        "fim": 248.72,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "E a gente precisa focar um pouco também no que acontece em volta.",
+        "inicio": 248.86,
+        "fim": 251.52,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "E também comunicação.",
+        "inicio": 252.3,
+        "fim": 253.84,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Eu sempre comunico o que eu sinto com uma pessoa de confiança.",
+        "inicio": 254.08,
+        "fim": 257.54,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "Então isso ajuda.",
+        "inicio": 257.86,
+        "fim": 258.66,
+        "emocao_facial": "fear"
+    },
+    {
+        "texto": "O que você acha que a IACH poderia fazer no sentido de cuidar da saúde mental dos alunos?",
+        "inicio": 259.4,
+        "fim": 264.12,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Ser mais perto da minha casa.",
+        "inicio": 265.76,
+        "fim": 267.86,
+        "emocao_facial": "happy"
+    },
+    {
+        "texto": "Eu acho que...",
+        "inicio": 269.26,
+        "fim": 270.24,
+        "emocao_facial": "happy"
+    },
+    {
+        "texto": "A IACH...",
+        "inicio": 272.44,
+        "fim": 273.32,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "Eu acho que ela lida com o que ela pode fazer, né?",
+        "inicio": 273.32,
+        "fim": 276.12,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "Eu acho que ela lida muito bem.",
+        "inicio": 276.42,
+        "fim": 277.82,
+        "emocao_facial": "fear"
+    },
+    {
+        "texto": "Eu gosto bastante do serviço de atenção psicosocial que eles têm aqui.",
+        "inicio": 278.16,
+        "fim": 282.9,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "O NAL.",
+        "inicio": 283.08,
+        "fim": 283.5,
+        "emocao_facial": "angry"
+    },
+    {
+        "texto": "Eu acho que é um serviço muito bom, muito útil.",
+        "inicio": 283.64,
+        "fim": 285.66,
+        "emocao_facial": "fear"
+    },
+    {
+        "texto": "Que é um aliado muito bom.",
+        "inicio": 286.2,
+        "fim": 287.82,
+        "emocao_facial": "fear"
+    },
+    {
+        "texto": "Mas...",
+        "inicio": 289.76,
+        "fim": 290.2,
+        "emocao_facial": "fear"
+    },
+    {
+        "texto": "É...",
+        "inicio": 290.2,
+        "fim": 290.54,
+        "emocao_facial": "fear"
+    },
+    {
+        "texto": "Infelizmente a solução que eu queria não dá.",
+        "inicio": 290.54,
+        "fim": 292.36,
+        "emocao_facial": "happy"
+    },
+    {
+        "texto": "Eu queria que meu curso estivesse na cidade universitária.",
+        "inicio": 292.4,
+        "fim": 294.48,
+        "emocao_facial": "happy"
+    },
+    {
+        "texto": "Eu não tenho que fazer o que, né?",
+        "inicio": 294.48,
+        "fim": 295.76,
+        "emocao_facial": "happy"
+    },
+    {
+        "texto": "Vou usar o NAL.",
+        "inicio": 296.16,
+        "fim": 296.76,
+        "emocao_facial": "happy"
+    },
+    {
+        "texto": "Não.",
+        "inicio": 297.2,
+        "fim": 297.38,
+        "emocao_facial": "happy"
+    },
+    {
+        "texto": "Não.",
+        "inicio": 297.56,
+        "fim": 297.7,
+        "emocao_facial": "happy"
+    },
+    {
+        "texto": "",
+        "inicio": 297.7,
+        "fim": 297.7,
+        "emocao_facial": "indefinido"
+    }
+]

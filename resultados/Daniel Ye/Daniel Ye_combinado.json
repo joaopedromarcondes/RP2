@@ -1,0 +1,254 @@
+[
+    {
+        "texto": "Como é a sua rotina? Cite brevemente as principais atividades.",
+        "inicio": 0.0,
+        "fim": 4.52,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Eu acordo às seis horas da manhã, depois pego para a escola até meio dia,",
+        "inicio": 5.18,
+        "fim": 10.26,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "na tarde eu tenho trabalho para fazer até às sete horas da noite,",
+        "inicio": 10.82,
+        "fim": 15.08,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "depois eu volto para casa e só descansar mesmo.",
+        "inicio": 15.9,
+        "fim": 18.52,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "E o que você faz no seu tempo livre? Pratica atividades físicas, dorme, tem momentos de lazer?",
+        "inicio": 19.9,
+        "fim": 25.06,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Praticamente não pratico nenhuma atividade física, né?",
+        "inicio": 26.44,
+        "fim": 29.84,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Eu costumo ficar em casa sem fazer nada mesmo.",
+        "inicio": 30.58,
+        "fim": 34.48,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Em quais momentos do seu dia você sente emoções mais positivas e em quais momentos sente as mais negativas?",
+        "inicio": 36.08,
+        "fim": 42.88,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Mais positiva?",
+        "inicio": 46.03999999999999,
+        "fim": 47.28,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Eu sempre fazendo nada mesmo, né? Descansar e tal.",
+        "inicio": 48.02,
+        "fim": 51.62,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Mas negativa eu acho que tem que estudar a prova, fazer algum trabalho.",
+        "inicio": 52.56,
+        "fim": 57.38,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Em quais situações você se sente mais nervoso, estressado ou ansioso?",
+        "inicio": 60.1,
+        "fim": 65.44,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Não sei mesmo.",
+        "inicio": 71.24000000000001,
+        "fim": 73.36,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Em algum momento assim.",
+        "inicio": 74.2,
+        "fim": 75.16,
+        "emocao_facial": "happy"
+    },
+    {
+        "texto": "Aí a próxima seria se você acha que essas situações impactam na sua qualidade de vida.",
+        "inicio": 76.66,
+        "fim": 82.04,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Acho que sim, né? Se você está muito nervoso, fazer alguma coisa, você não vai fazer bem, né?",
+        "inicio": 82.98,
+        "fim": 88.9,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Você acha que a sua rotina tem atrapalhado o seu desempenho na faculdade ou impactado negativamente suas relações?",
+        "inicio": 91.03999999999999,
+        "fim": 98.06,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Às vezes.",
+        "inicio": 100.0,
+        "fim": 101.06,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Às vezes.",
+        "inicio": 101.48,
+        "fim": 102.04,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Porque às vezes tenho trabalho para fazer e não consigo fazer coisas para a escola, né?",
+        "inicio": 102.04,
+        "fim": 109.66,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Então, não tenho tempo para descansar e tal.",
+        "inicio": 109.66,
+        "fim": 114.64,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "E o que você faz para a manutenção da sua saúde mental?",
+        "inicio": 115.88,
+        "fim": 118.88,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Nada.",
+        "inicio": 121.52,
+        "fim": 122.16,
+        "emocao_facial": "happy"
+    },
+    {
+        "texto": "E o que você acha que a IACH poderia fazer no sentido de cuidar da saúde mental dos alunos?",
+        "inicio": 123.74,
+        "fim": 129.34,
+        "emocao_facial": "happy"
+    },
+    {
+        "texto": "Ainda não pensei como é.",
+        "inicio": 130.70000000000002,
+        "fim": 132.72,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "E a IACH poderia fazer.",
+        "inicio": 132.9,
+        "fim": 134.36,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Mas eu acho que talvez seria melhor a IACH poder escutar e fazer alguma pesquisa dos alunos assim.",
+        "inicio": 134.78,
+        "fim": 147.98,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Como eles estão testando.",
+        "inicio": 148.56,
+        "fim": 149.84,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Acho isso.",
+        "inicio": 150.14,
+        "fim": 150.8,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "",
+        "inicio": 150.8,
+        "fim": 150.8,
+        "emocao_facial": "indefinido"
+    },
+    {
+        "texto": "",
+        "inicio": 150.8,
+        "fim": 150.8,
+        "emocao_facial": "indefinido"
+    },
+    {
+        "texto": "",
+        "inicio": 150.8,
+        "fim": 150.8,
+        "emocao_facial": "indefinido"
+    },
+    {
+        "texto": "",
+        "inicio": 150.8,
+        "fim": 150.8,
+        "emocao_facial": "indefinido"
+    },
+    {
+        "texto": "",
+        "inicio": 150.8,
+        "fim": 150.8,
+        "emocao_facial": "indefinido"
+    },
+    {
+        "texto": "",
+        "inicio": 150.8,
+        "fim": 150.8,
+        "emocao_facial": "indefinido"
+    },
+    {
+        "texto": "Mas eu acho que a I f",
+        "inicio": 150.8,
+        "fim": 150.94,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "",
+        "inicio": 150.94,
+        "fim": 150.94,
+        "emocao_facial": "indefinido"
+    },
+    {
+        "texto": "",
+        "inicio": 150.94,
+        "fim": 150.94,
+        "emocao_facial": "indefinido"
+    },
+    {
+        "texto": "''Aguas três''",
+        "inicio": 152.08,
+        "fim": 152.36,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "E aí",
+        "inicio": 152.36,
+        "fim": 152.38,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "",
+        "inicio": 152.38,
+        "fim": 152.38,
+        "emocao_facial": "indefinido"
+    },
+    {
+        "texto": "",
+        "inicio": 152.36,
+        "fim": 152.36,
+        "emocao_facial": "indefinido"
+    }
+]

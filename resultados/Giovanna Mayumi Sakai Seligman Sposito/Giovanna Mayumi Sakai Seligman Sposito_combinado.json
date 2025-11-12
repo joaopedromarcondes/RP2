@@ -1,0 +1,1070 @@
+[
+    {
+        "texto": "Comecei boa.",
+        "inicio": 0.0,
+        "fim": 0.86,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Como é a sua rotina?",
+        "inicio": 1.48,
+        "fim": 2.9,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Cite brevemente as principais atividades.",
+        "inicio": 3.3,
+        "fim": 5.28,
+        "emocao_facial": "surprise"
+    },
+    {
+        "texto": "Gente, minha rotina é uma loucura.",
+        "inicio": 5.84,
+        "fim": 7.14,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Eu literalmente acordo às 5 da manhã,",
+        "inicio": 7.32,
+        "fim": 8.88,
+        "emocao_facial": "fear"
+    },
+    {
+        "texto": "eu saio do Butantan pra vir pra Ache.",
+        "inicio": 9.08,
+        "fim": 11.58,
+        "emocao_facial": "happy"
+    },
+    {
+        "texto": "Eu chego umas 7 e pouco aqui",
+        "inicio": 11.8,
+        "fim": 13.3,
+        "emocao_facial": "happy"
+    },
+    {
+        "texto": "pra, tipo, tomar café da manhã",
+        "inicio": 13.3,
+        "fim": 15.06,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "e vir pra aula, né, às 8.",
+        "inicio": 15.06,
+        "fim": 16.82,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Aí, enfim,",
+        "inicio": 17.7,
+        "fim": 18.8,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "esse contexto, acho que vocês já sabem como funciona.",
+        "inicio": 19.1,
+        "fim": 21.14,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Das 8 até meio-dia a gente tem aula.",
+        "inicio": 21.26,
+        "fim": 23.38,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "E 10,",
+        "inicio": 24.08,
+        "fim": 24.6,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "10, não, 9, pouco,",
+        "inicio": 25.259999999999998,
+        "fim": 26.7,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "a gente tem intervalo.",
+        "inicio": 26.88,
+        "fim": 27.76,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Aí o negócio é parte de tarde.",
+        "inicio": 28.54,
+        "fim": 30.06,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "De tarde, geralmente, o que eu faço?",
+        "inicio": 30.22,
+        "fim": 31.9,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Eu sou do cursinho.",
+        "inicio": 31.96,
+        "fim": 32.76,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "E aí eu fico no balcão do cursinho.",
+        "inicio": 33.66,
+        "fim": 35.6,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Só que eu fico, tipo, estagiando.",
+        "inicio": 35.84,
+        "fim": 37.48,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Porque o meu estagio é com mióxido.",
+        "inicio": 37.58,
+        "fim": 38.94,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "Só que eu fico resolvendo possíveis demandas",
+        "inicio": 39.04,
+        "fim": 41.16,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "que tem no cursinho também,",
+        "inicio": 41.16,
+        "fim": 42.14,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "como eu já tô no balcão.",
+        "inicio": 42.22,
+        "fim": 43.2,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "Nas segundas, eu não fico no cursinho,",
+        "inicio": 44.199999999999996,
+        "fim": 45.9,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "eu fico na empresa júnior.",
+        "inicio": 46.0,
+        "fim": 47.06,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Já tá dando pra ver que já tem um burnout aí, né, gente?",
+        "inicio": 47.34,
+        "fim": 49.68,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Porque, assim, é duas entidades,",
+        "inicio": 49.8,
+        "fim": 51.28,
+        "emocao_facial": "happy"
+    },
+    {
+        "texto": "já tô levando a loucura.",
+        "inicio": 51.36,
+        "fim": 52.4,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Aí, assim, eu costumo ficar a tarde toda, né,",
+        "inicio": 54.16,
+        "fim": 56.14,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Ache, jantar aqui.",
+        "inicio": 56.36,
+        "fim": 57.52,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "E aí eu volto pra casa.",
+        "inicio": 57.76,
+        "fim": 59.32,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Aí é mais uma hora e meia de trânsito",
+        "inicio": 59.5,
+        "fim": 61.44,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "até chegar em casa.",
+        "inicio": 61.44,
+        "fim": 62.7,
+        "emocao_facial": "happy"
+    },
+    {
+        "texto": "E, assim, eu chego em casa morta.",
+        "inicio": 63.8,
+        "fim": 65.68,
+        "emocao_facial": "happy"
+    },
+    {
+        "texto": "Tipo, assim, eu literalmente só",
+        "inicio": 65.8,
+        "fim": 66.94,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "dentro da cama, durmo.",
+        "inicio": 66.94,
+        "fim": 68.32,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "E aí é isso.",
+        "inicio": 68.74,
+        "fim": 69.26,
+        "emocao_facial": "happy"
+    },
+    {
+        "texto": "Tipo, claro, faço minhas coisas também, né,",
+        "inicio": 70.08,
+        "fim": 71.74,
+        "emocao_facial": "happy"
+    },
+    {
+        "texto": "mas, assim, em geral é isso.",
+        "inicio": 71.78,
+        "fim": 73.22,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "Dia a dia é isso.",
+        "inicio": 74.0,
+        "fim": 75.08,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "Aí, de final de semana,",
+        "inicio": 75.24,
+        "fim": 76.04,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "eu me permito sair com os meus amigos,",
+        "inicio": 76.06,
+        "fim": 78.48,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "dar uma escala, assim,",
+        "inicio": 78.68,
+        "fim": 80.16,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "dar uma melhorada na rotina, vamos dizer.",
+        "inicio": 80.4,
+        "fim": 83.32,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "O que você faz no seu tempo livre?",
+        "inicio": 84.46,
+        "fim": 86.38,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Pratica atividades físicas,",
+        "inicio": 86.58,
+        "fim": 88.16,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "dorme, tem momentos de lazer?",
+        "inicio": 88.4,
+        "fim": 89.82,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Bom, quando eu tenho alguns espaços, assim, na agenda,",
+        "inicio": 90.14,
+        "fim": 92.7,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "quando o meu estágio, por exemplo,",
+        "inicio": 92.82,
+        "fim": 93.74,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "tá com pouca demanda,",
+        "inicio": 93.84,
+        "fim": 94.68,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "eu vou pra academia",
+        "inicio": 94.68,
+        "fim": 96.6,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "e aí eu faço exercício físico,",
+        "inicio": 97.04,
+        "fim": 99.18,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "porque eu acho bem importante isso.",
+        "inicio": 99.32,
+        "fim": 100.56,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "Mas, além disso, também,",
+        "inicio": 101.02,
+        "fim": 102.86,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "nos finais de semana,",
+        "inicio": 103.24,
+        "fim": 104.38,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "eu gosto muito de priorizar estar com os meus amigos.",
+        "inicio": 104.5,
+        "fim": 106.76,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Então, geralmente,",
+        "inicio": 107.02,
+        "fim": 108.42,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "ou eu viajo com eles,",
+        "inicio": 108.46,
+        "fim": 109.82,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "ou a gente marca de ir pra algum evento.",
+        "inicio": 109.88,
+        "fim": 112.84,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Como a gente é de marketing,",
+        "inicio": 113.98,
+        "fim": 115.32,
+        "emocao_facial": "happy"
+    },
+    {
+        "texto": "a gente tem muito, muito evento.",
+        "inicio": 115.52,
+        "fim": 116.64,
+        "emocao_facial": "happy"
+    },
+    {
+        "texto": "Tipo, sempre, todo final de semana,",
+        "inicio": 116.82,
+        "fim": 117.94,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "tem alguma coisa nova pra fazer.",
+        "inicio": 117.96,
+        "fim": 119.18,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Então, assim, eu gosto muito de,",
+        "inicio": 119.18,
+        "fim": 120.86,
+        "emocao_facial": "happy"
+    },
+    {
+        "texto": "é...",
+        "inicio": 122.14,
+        "fim": 122.58,
+        "emocao_facial": "happy"
+    },
+    {
+        "texto": "Ah, sabe?",
+        "inicio": 122.58,
+        "fim": 123.36,
+        "emocao_facial": "happy"
+    },
+    {
+        "texto": "Ter essa liberdade de sair pros lugares com eles.",
+        "inicio": 123.52,
+        "fim": 126.22,
+        "emocao_facial": "happy"
+    },
+    {
+        "texto": "Então, geralmente, é o que eu faço.",
+        "inicio": 126.34,
+        "fim": 127.4,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Tipo, eu vou pra algum evento,",
+        "inicio": 127.5,
+        "fim": 128.48,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "eu viajo com eles,",
+        "inicio": 128.56,
+        "fim": 129.54,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "ou academia nos dias normais,",
+        "inicio": 129.54,
+        "fim": 132.4,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "e que o financeiro não tá tão grande, vamos dizer.",
+        "inicio": 132.42,
+        "fim": 136.12,
+        "emocao_facial": "happy"
+    },
+    {
+        "texto": "Em quais momentos do seu dia",
+        "inicio": 136.94,
+        "fim": 138.52,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "você sente emoções mais positivas",
+        "inicio": 138.52,
+        "fim": 140.18,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "e em quais momentos sente as mais negativas?",
+        "inicio": 140.8,
+        "fim": 143.32,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Mais positivas, eu sinto que é no período da tarde.",
+        "inicio": 143.62,
+        "fim": 146.52,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Eu gosto muito, muito, muito do cursinho.",
+        "inicio": 146.56,
+        "fim": 148.44,
+        "emocao_facial": "happy"
+    },
+    {
+        "texto": "E, tipo, a minha entidade preferida.",
+        "inicio": 148.44,
+        "fim": 150.2,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "Eu tenho muito carinho por lá.",
+        "inicio": 150.36,
+        "fim": 151.38,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Então, sinceramente, eu gosto muito de estar lá.",
+        "inicio": 151.62,
+        "fim": 153.84,
+        "emocao_facial": "happy"
+    },
+    {
+        "texto": "E negativas, eu acho que de noite.",
+        "inicio": 154.36,
+        "fim": 156.26,
+        "emocao_facial": "fear"
+    },
+    {
+        "texto": "Assim, eu acho que é porque",
+        "inicio": 156.58,
+        "fim": 158.04,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "quando você tá mais cansado,",
+        "inicio": 158.04,
+        "fim": 159.36,
+        "emocao_facial": "happy"
+    },
+    {
+        "texto": "vem todas as demandas.",
+        "inicio": 159.48,
+        "fim": 160.74,
+        "emocao_facial": "happy"
+    },
+    {
+        "texto": "E é um momento que eu fico muito reflexiva,",
+        "inicio": 160.88,
+        "fim": 162.8,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "porque é um momento que eu tiro muito pra ficar comigo.",
+        "inicio": 162.92,
+        "fim": 164.7,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "E aí, eu sou uma pessoa muito pensativa.",
+        "inicio": 165.08,
+        "fim": 166.92,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Então, é isso.",
+        "inicio": 167.52,
+        "fim": 168.56,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "Em quais situações você se sente mais nervosa,",
+        "inicio": 168.74,
+        "fim": 171.8,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "estressada ou ansiosa?",
+        "inicio": 171.92,
+        "fim": 173.24,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "De manhã, geralmente.",
+        "inicio": 173.42,
+        "fim": 174.78,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "Mas, assim, em situações,",
+        "inicio": 175.06,
+        "fim": 176.82,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "por exemplo,",
+        "inicio": 176.82,
+        "fim": 177.88,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "eu sou representante de sala",
+        "inicio": 178.82,
+        "fim": 180.78,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "e eu tô quase pegando a cadeira",
+        "inicio": 180.78,
+        "fim": 184.2,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "de representante suplente do meu curso.",
+        "inicio": 184.2,
+        "fim": 186.32,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "Eu acho que é quando tem B.O.s",
+        "inicio": 188.22,
+        "fim": 190.76,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "pra resolver de representante.",
+        "inicio": 190.76,
+        "fim": 192.18,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Porque, assim,",
+        "inicio": 192.3,
+        "fim": 192.74,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "geralmente não tem B.O.,",
+        "inicio": 193.0,
+        "fim": 194.54,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "mas quando tem, é, tipo assim,",
+        "inicio": 194.54,
+        "fim": 195.82,
+        "emocao_facial": "happy"
+    },
+    {
+        "texto": "a cagada fenomenal.",
+        "inicio": 196.04,
+        "fim": 197.22,
+        "emocao_facial": "happy"
+    },
+    {
+        "texto": "Então,",
+        "inicio": 197.68,
+        "fim": 198.18,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "isso me deixa muito estressada.",
+        "inicio": 198.8,
+        "fim": 200.5,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Você acredita que essas situações",
+        "inicio": 201.6,
+        "fim": 203.5,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "impactam na sua qualidade de vida?",
+        "inicio": 203.5,
+        "fim": 205.54,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Completamente.",
+        "inicio": 206.54,
+        "fim": 206.98,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Assim, eu faço terapia,",
+        "inicio": 207.22,
+        "fim": 208.62,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "então eu consigo extravasar lá",
+        "inicio": 208.8,
+        "fim": 210.24,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "minhas angústias,",
+        "inicio": 210.24,
+        "fim": 211.64,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "mas, querendo ou não,",
+        "inicio": 211.9,
+        "fim": 213.08,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "quando você é aluno,",
+        "inicio": 214.28,
+        "fim": 215.26,
+        "emocao_facial": "angry"
+    },
+    {
+        "texto": "e só aluno,",
+        "inicio": 215.42,
+        "fim": 216.18,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "tipo, você não é R.D.",
+        "inicio": 216.26,
+        "fim": 217.42,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "ou representante,",
+        "inicio": 217.5,
+        "fim": 218.42,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "ou qualquer coisa,",
+        "inicio": 218.52,
+        "fim": 219.16,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "acontece uma coisa negativa,",
+        "inicio": 219.4,
+        "fim": 221.12,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "você fica,",
+        "inicio": 221.32,
+        "fim": 222.2,
+        "emocao_facial": "angry"
+    },
+    {
+        "texto": "ah, beleza,",
+        "inicio": 222.38,
+        "fim": 222.84,
+        "emocao_facial": "fear"
+    },
+    {
+        "texto": "aconteceu isso daqui negativo,",
+        "inicio": 223.0,
+        "fim": 224.32,
+        "emocao_facial": "fear"
+    },
+    {
+        "texto": "mas não vai ser eu que vai resolver o B.O.",
+        "inicio": 224.38,
+        "fim": 226.12,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "que vai estar representando o curso.",
+        "inicio": 226.12,
+        "fim": 227.78,
+        "emocao_facial": "fear"
+    },
+    {
+        "texto": "Agora, a partir do momento",
+        "inicio": 227.98,
+        "fim": 229.0,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "que você é representante de sala",
+        "inicio": 229.0,
+        "fim": 230.4,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "ou representante de sente,",
+        "inicio": 230.4,
+        "fim": 231.68,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "putz,",
+        "inicio": 231.94,
+        "fim": 232.4,
+        "emocao_facial": "happy"
+    },
+    {
+        "texto": "a cagada não sobrou só",
+        "inicio": 233.26,
+        "fim": 234.94,
+        "emocao_facial": "happy"
+    },
+    {
+        "texto": "pra quem aconteceu,",
+        "inicio": 234.94,
+        "fim": 236.72,
+        "emocao_facial": "happy"
+    },
+    {
+        "texto": "mas também vai",
+        "inicio": 236.8,
+        "fim": 237.4,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "o seu nome junto.",
+        "inicio": 237.4,
+        "fim": 238.36,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "O que você faz",
+        "inicio": 239.22,
+        "fim": 240.16,
+        "emocao_facial": "happy"
+    },
+    {
+        "texto": "pra manutenção",
+        "inicio": 240.16,
+        "fim": 240.9,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "da sua saúde mental?",
+        "inicio": 240.9,
+        "fim": 242.0,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Terapia,",
+        "inicio": 243.14,
+        "fim": 243.66,
+        "emocao_facial": "happy"
+    },
+    {
+        "texto": "exercício físico,",
+        "inicio": 244.72,
+        "fim": 245.66,
+        "emocao_facial": "happy"
+    },
+    {
+        "texto": "academia,",
+        "inicio": 245.76,
+        "fim": 246.06,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "eu tento o máximo",
+        "inicio": 246.6,
+        "fim": 247.68,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "de vezes que eu consigo ir.",
+        "inicio": 247.68,
+        "fim": 248.94,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Escutar a música,",
+        "inicio": 249.68,
+        "fim": 250.42,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "eu sinto que eu consigo,",
+        "inicio": 250.56,
+        "fim": 251.28,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "tipo,",
+        "inicio": 251.42,
+        "fim": 251.64,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "pegar o sentimento",
+        "inicio": 251.92,
+        "fim": 252.84,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "que eu tô sentindo",
+        "inicio": 252.84,
+        "fim": 253.56,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "e extravasar ele.",
+        "inicio": 253.56,
+        "fim": 255.06,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "e estar com os meus amigos,",
+        "inicio": 256.56,
+        "fim": 258.3,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "total,",
+        "inicio": 259.0,
+        "fim": 259.48,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "tipo,",
+        "inicio": 259.66,
+        "fim": 259.78,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "eu sou uma pessoa",
+        "inicio": 259.88,
+        "fim": 260.36,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "que eu tenho muito carinho",
+        "inicio": 260.36,
+        "fim": 261.42,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "pelos meus amigos",
+        "inicio": 261.42,
+        "fim": 262.22,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "e é isso.",
+        "inicio": 262.22,
+        "fim": 263.42,
+        "emocao_facial": "happy"
+    },
+    {
+        "texto": "O que você acha",
+        "inicio": 264.36,
+        "fim": 265.12,
+        "emocao_facial": "happy"
+    },
+    {
+        "texto": "que a IASH poderia fazer",
+        "inicio": 265.12,
+        "fim": 266.4,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "no sentido",
+        "inicio": 266.4,
+        "fim": 266.92,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "de cuidar da saúde mental",
+        "inicio": 266.92,
+        "fim": 268.26,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "dos alunos?",
+        "inicio": 268.26,
+        "fim": 269.08,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Eu acredito que",
+        "inicio": 269.36,
+        "fim": 270.56,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "esses programas",
+        "inicio": 270.56,
+        "fim": 272.04,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "que a IASH tem,",
+        "inicio": 272.04,
+        "fim": 273.52,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "de, tipo,",
+        "inicio": 273.74,
+        "fim": 274.08,
+        "emocao_facial": "fear"
+    },
+    {
+        "texto": "ter os psicólogos",
+        "inicio": 274.36,
+        "fim": 275.5,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "e aí de ser marco",
+        "inicio": 275.5,
+        "fim": 276.44,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "um horário com os psicólogos,",
+        "inicio": 276.44,
+        "fim": 277.32,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "eu acho uma iniciativa",
+        "inicio": 277.38,
+        "fim": 278.08,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "muito legal,",
+        "inicio": 278.08,
+        "fim": 278.6,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "eu acho que eles estão",
+        "inicio": 278.76,
+        "fim": 279.24,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "arrasando nisso",
+        "inicio": 279.24,
+        "fim": 280.22,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "e num cenário até,",
+        "inicio": 280.22,
+        "fim": 282.12,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "tipo,",
+        "inicio": 282.12,
+        "fim": 282.38,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "hipotético,",
+        "inicio": 282.42,
+        "fim": 283.02,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "talvez aumentar",
+        "inicio": 283.06,
+        "fim": 283.98,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "a quantidade de psicólogos,",
+        "inicio": 283.98,
+        "fim": 285.48,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "vamos dizer,",
+        "inicio": 285.52,
+        "fim": 285.94,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "que tem esse acompanhamento,",
+        "inicio": 285.94,
+        "fim": 287.4,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "eu acho bem importante.",
+        "inicio": 287.48,
+        "fim": 288.32,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "É isso aí.",
+        "inicio": 288.68,
+        "fim": 289.12,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "E aí",
+        "inicio": 289.12,
+        "fim": 289.6,
+        "emocao_facial": "neutral"
+    }
+]
