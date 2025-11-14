@@ -90,3 +90,12 @@ print("Relação: Grupo de Emoção (Positiva/Negativa) vs Nível de Estresse PS
 print(contingency_table_grouped)
 
 
+from scipy.stats import chi2_contingency
+
+chi2, p, dof, expected = chi2_contingency(contingency_table_grouped)
+
+# Imprime os resultados
+print(f"Estatística Qui-Quadrado (Chi2): {chi2}")
+print(f"Valor p (p-value): {p}")
+print(f"Graus de Liberdade (df): {dof}")
+print("Frequências Esperadas (Expected Frequencies - E):", expected)
