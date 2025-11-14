@@ -33,78 +33,77 @@ df_survey.rename(columns={'Nome completo:': 'Nome'}, inplace=True)
 df_survey['Nome_cleaned'] = df_survey['Nome'].apply(clean_name)
 df_emotions['Pessoa_cleaned'] = df_emotions['Pessoa'].apply(clean_name)
 
-# Merge df_survey (PSS, Idade) and df_emotions (Frequencies)
-emotion_cols = ['sad', 'fear', 'surprise', 'happy', 'angry', 'disgust', 'neutral', 'Pessoa_cleaned']
+# Colunas base para a Regressão
+reg_cols_base = ['PSS_Total', 'Idade:', 'Nome_cleaned']
+# Colunas adicionais a serem incluídas no modelo estendido (para serem transformadas em dummy)
+new_reg_cols = ['Sexo:', 'Você já fez/faz acompanhamento terapêutico?', 'Você já foi diagnosticado com algum transtorno de saúde mental?']
+
+# Merge df_survey (PSS, Idade, Novas Variáveis) and df_emotions (Frequencies)
+emotion_cols = ['sad', 'fear', 'surprise', 'happy', 'angry', 'disgust', 'Pessoa_cleaned']
+
 df_reg_emotions = pd.merge(
-    df_survey[['PSS_Total', 'Idade:', 'Nome_cleaned']],
+    df_survey[reg_cols_base + new_reg_cols],
     df_emotions[emotion_cols],
     left_on='Nome_cleaned',
     right_on='Pessoa_cleaned',
     how='inner'
 )
 
-# Renomear Idade e garantir tipo numérico
-df_reg_emotions.rename(columns={'Idade:': 'Idade'}, inplace=True)
+# Renomear e limpar colunas
+col_map = {
+    'Idade:': 'Idade', 
+    'Sexo:': 'Sexo', 
+    'Você já fez/faz acompanhamento terapêutico?': 'Terapia', 
+    'Você já foi diagnosticado com algum transtorno de saúde mental?': 'Diagnostico'
+}
+df_reg_emotions.rename(columns=col_map, inplace=True)
 df_reg_emotions['Idade'] = pd.to_numeric(df_reg_emotions['Idade'], errors='coerce')
 
-# Remover NaNs
+# Remover NaNs (Crucial)
 df_reg_emotions.dropna(inplace=True)
 
-#print(df_reg_emotions.head())
+
 # =================================================================
 # 2. ANÁLISE DE COMPONENTES PRINCIPAIS (PCA) NAS EMOÇÕES
 # =================================================================
-
 emotion_features = ['sad', 'fear', 'surprise', 'happy', 'angry', 'disgust']
 X_emotions = df_reg_emotions[emotion_features]
-
-# Padronização dos dados (Importante para PCA)
 scaler = StandardScaler()
 X_scaled = scaler.fit_transform(X_emotions)
 
-# Aplicação do PCA
-pca = PCA(n_components=6) 
-pca.fit(X_scaled)
-
-# Cálculo da variância explicada acumulada
-explained_variance_ratio = pca.explained_variance_ratio_
-cumulative_explained_variance = np.cumsum(explained_variance_ratio)
-
-# Escolha do número de componentes: Manter 2 componentes (PC1 e PC2)
+# Manter 5 componentes (conforme solicitado)
 n_components_to_keep = 5
-
-# Transformação dos dados
 pca_final = PCA(n_components=n_components_to_keep)
 X_pca = pca_final.fit_transform(X_scaled)
 
-# Adicionar os componentes principais ao DataFrame de regressão
+# Adicionar os componentes principais ao DataFrame
 for i in range(n_components_to_keep):
     df_reg_emotions[f'PC{i+1}'] = X_pca[:, i]
 
-print("----------------------------------------------------------")
-print("PCA: Variância Explicada Acumulada")
-print("----------------------------------------------------------")
-for i, var in enumerate(cumulative_explained_variance):
-    print(f"Componentes 1 até {i+1} explicam: {var:.4f}")
 
 # =================================================================
-# 3. REGRESSÃO LINEAR COM COMPONENTES PRINCIPAIS
+# 3. REGRESSÃO LINEAR COM VARIÁVEIS ADICIONAIS
 # =================================================================
 
-# Fórmula: PSS_Total ~ Idade + PC1 + PC2
-formula_pca = 'PSS_Total ~ Idade + PC2 + PC3 + PC4 + PC5'
+# Fórmula estendida: PC2, PC3, PC4, PC5 (do usuário) + Idade + Sexo + Terapia + Diagnostico
+formula_extended = 'PSS_Total ~ PC2 + C(Terapia) + C(Diagnostico)'
 
-print(f"\nNúmero de observações restantes para o modelo: N = {len(df_reg_emotions)}")
+print("----------------------------------------------------------")
+print(f"MODELO ESTENDIDO: N = {len(df_reg_emotions)} observações.")
+print("----------------------------------------------------------")
+
+# Para um N=12, este modelo tem 1 (Intercept) + 1 (Idade) + 4 (PCs) + 1 (Sexo) + 1 (Terapia) + 1 (Diagnostico) = 9 parâmetros.
+# Df Residuals = 12 - 9 = 3. O modelo é matematicamente possível, mas altamente instável.
 
 try:
-    # OLS: Ordinary Least Squares (Mínimos Quadrados Ordinários)
-    model_pca = smf.ols(formula_pca, data=df_reg_emotions)
-    results_pca = model_pca.fit(cov_type='fixed scale')  
+    # Usando Erros Padrão Robustos (HC0) para maior confiabilidade, como na etapa anterior.
+    model_extended = smf.ols(formula_extended, data=df_reg_emotions)
+    results_extended = model_extended.fit(cov_type='HC0')
 
-    print("\n----------------------------------------------------------")
-    print(f"RESUMO DA REGRESSÃO LINEAR ({formula_pca})")
+    print(f"\nRESUMO DA REGRESSÃO LINEAR ESTENDIDA ({formula_extended})")
     print("----------------------------------------------------------")
-    print(results_pca.summary())
+    print(results_extended.summary())
 
 except Exception as e:
-    print(f"Erro ao executar a regressão OLS com PCA: {e}")
+    print(f"Erro ao executar a regressão OLS estendida: {e}")
+    print("\nO modelo falhou devido à multicolinearidade perfeita ou N muito pequeno.")
