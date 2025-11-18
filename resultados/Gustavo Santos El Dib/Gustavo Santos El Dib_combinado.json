@@ -1,0 +1,398 @@
+[
+    {
+        "texto": "Bom, como é sua rotina? Cite brevemente as principais atividades.",
+        "inicio": 1.0199999999999994,
+        "fim": 5.42,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "Eu acordo de manhã, por volta de umas 7 horas, aí a maioria das vezes eu vou pra academia,",
+        "inicio": 6.0,
+        "fim": 13.12,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "depois eu volto, vou pro trabalho, fico lá do trabalho de umas 9 até umas 4,",
+        "inicio": 13.6,
+        "fim": 19.58,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "e depois disso eu vou pra faculdade.",
+        "inicio": 20.52,
+        "fim": 23.64,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "Aí eu fico das 7 que começa a aula, 6 que eu vou jantar, 7 que eu vou pra aula e fico até meia noite.",
+        "inicio": 23.64,
+        "fim": 30.18,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "O que você faz no seu tempo livre? Pratica atividades físicas, dorme, tem momentos de lazer?",
+        "inicio": 30.84,
+        "fim": 35.86,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "Sim, a maioria das vezes eu fico ou eu fico em casa assistindo filme com a minha namorada,",
+        "inicio": 36.46,
+        "fim": 41.46,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "ou eu saio com os meus amigos no final de semana, então sim, tenho esse lazer.",
+        "inicio": 41.72,
+        "fim": 46.6,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Praticar esporte seria mais academia na semana, de fato.",
+        "inicio": 47.16,
+        "fim": 51.0,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "e eu acredito que é mais isso mesmo que eu faço.",
+        "inicio": 54.019999999999996,
+        "fim": 57.06,
+        "emocao_facial": "fear"
+    },
+    {
+        "texto": "Em quais momentos do seu dia você sente emoções mais positivas?",
+        "inicio": 57.48,
+        "fim": 61.04,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "Em quais momentos você se sente as mais negativas?",
+        "inicio": 61.2,
+        "fim": 63.96,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "Ah, eu não diria as negativas, mas as que me pressionam mais, no caso seria do trabalho,",
+        "inicio": 65.06,
+        "fim": 72.74,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "que normalmente eu me sinto muito pressionado no trabalho, no escritório cultural,",
+        "inicio": 72.94,
+        "fim": 76.62,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "e as mais felizes de fato no dia, na semana, na faculdade, eu gosto muito também do risada,",
+        "inicio": 76.62,
+        "fim": 83.62,
+        "emocao_facial": "fear"
+    },
+    {
+        "texto": "e final de semana quando eu tô com a minha namorada, enfim, eu tô no momento meu do trazer.",
+        "inicio": 83.8,
+        "fim": 87.74,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "Em quais situações você se sente mais nervoso, estressado ou ansioso?",
+        "inicio": 88.3,
+        "fim": 91.98,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "Com certeza no trabalho.",
+        "inicio": 92.1,
+        "fim": 93.4,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Você acredita que essas situações impactam a sua qualidade de vida? Por quê?",
+        "inicio": 94.36,
+        "fim": 98.04,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Ah, eu acredito que sim, porque a maioria das vezes quando eu saio do trabalho,",
+        "inicio": 98.04,
+        "fim": 102.72,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "eu preciso... eu gostaria de fazer mais coisas na minha rotina,",
+        "inicio": 103.5,
+        "fim": 107.52,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "mas eu não consigo, porque normalmente eu tô de cabeça cheia, eu só quero relaxar e...",
+        "inicio": 107.66,
+        "fim": 111.68,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "e é isso.",
+        "inicio": 111.68,
+        "fim": 112.84,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "Você acha que sua rotina tem atrapalhado seu desempenho na faculdade?",
+        "inicio": 113.16,
+        "fim": 116.1,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Ou tem impactado negativamente suas relações?",
+        "inicio": 116.34,
+        "fim": 118.52,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Ah, acredito que sim.",
+        "inicio": 118.98,
+        "fim": 119.96,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Na faculdade é muito difícil, de fato, conciliar as duas coisas.",
+        "inicio": 120.9,
+        "fim": 124.7,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Normalmente eu não tenho muito tempo, eu não tenho muita cabeça pra ficar na aula,",
+        "inicio": 126.64,
+        "fim": 129.96,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "prestando atenção, então eu desfoco muito na aula,",
+        "inicio": 130.06,
+        "fim": 132.4,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "não tenho muito tempo pra estudar também,",
+        "inicio": 132.56,
+        "fim": 134.16,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "e no final de semana que eu queria pra estudar,",
+        "inicio": 134.5,
+        "fim": 136.7,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "eu tô com a minha namorada.",
+        "inicio": 138.0,
+        "fim": 139.76,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Ou se eu não tô com a minha namorada, eu tô estudando,",
+        "inicio": 139.9,
+        "fim": 141.46,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "então impacta na minha relação no sentido de eu preciso estudar pra faculdade de novo,",
+        "inicio": 141.56,
+        "fim": 144.64,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "entendeu? Então, tudo tá meio desregulado, assim.",
+        "inicio": 144.76,
+        "fim": 147.3,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "O que você faz para a manutenção da sua saúde mental?",
+        "inicio": 147.92,
+        "fim": 150.42,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Pô, ótima pergunta, hein? Não sei.",
+        "inicio": 151.74,
+        "fim": 153.42,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "O que eu faço? Ah, acho que...",
+        "inicio": 153.72,
+        "fim": 155.46,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "desestressar, pensar que no fim das contas vai dar certo,",
+        "inicio": 156.12,
+        "fim": 159.06,
+        "emocao_facial": "surprise"
+    },
+    {
+        "texto": "pensar que daqui a pouco tem férias e eu dou uma relaxada,",
+        "inicio": 159.26,
+        "fim": 162.06,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "e tento organizar com tudo.",
+        "inicio": 162.64,
+        "fim": 163.9,
+        "emocao_facial": "surprise"
+    },
+    {
+        "texto": "Desestresso muito na academia, eu uso muito a academia pra desestressar,",
+        "inicio": 164.38,
+        "fim": 167.7,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "e acho que no final de semana com a minha namorada me acalma muito,",
+        "inicio": 169.79999999999998,
+        "fim": 173.1,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "então acho que eu olho dessa forma.",
+        "inicio": 173.26,
+        "fim": 174.44,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "O que você acha que a IASH pode contribuir...",
+        "inicio": 174.44,
+        "fim": 177.4,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "O que você acha que a IASH poderia fazer no sentido de cuidar da saúde mental dos alunos?",
+        "inicio": 178.78,
+        "fim": 182.98,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "Puts...",
+        "inicio": 185.76,
+        "fim": 186.2,
+        "emocao_facial": "angry"
+    },
+    {
+        "texto": "Eu não sei, talvez se eu falasse, diminuir um pouco a carga de...",
+        "inicio": 186.2,
+        "fim": 190.2,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "de trabalhos em si,",
+        "inicio": 190.84,
+        "fim": 192.14,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "porque eu acho que...",
+        "inicio": 192.36,
+        "fim": 193.48,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "talvez nem seja muito sobre as notas ou sobre as provas em si,",
+        "inicio": 193.48,
+        "fim": 197.76,
+        "emocao_facial": "sad"
+    },
+    {
+        "texto": "mas acho que os trabalhos pesam muito ao longo do semestre,",
+        "inicio": 197.98,
+        "fim": 201.32,
+        "emocao_facial": "fear"
+    },
+    {
+        "texto": "porque você pensa que você precisa fazer o trabalho,",
+        "inicio": 201.44,
+        "fim": 203.42,
+        "emocao_facial": "fear"
+    },
+    {
+        "texto": "depois precisa pensar na prova,",
+        "inicio": 203.64,
+        "fim": 205.16,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "acho que talvez se reduzir bastante a quantidade de trabalhos que tem que fazer,",
+        "inicio": 205.28,
+        "fim": 208.56,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "ou só focar na prova, ou só focar no trabalho, seria melhor.",
+        "inicio": 208.66,
+        "fim": 210.76,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Não passar, tipo, quatro trabalhos e duas provas, três provas, entendeu?",
+        "inicio": 211.02,
+        "fim": 214.62,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Muita coisa.",
+        "inicio": 214.76,
+        "fim": 215.22,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Entende?",
+        "inicio": 216.1,
+        "fim": 216.38,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Entende?",
+        "inicio": 216.38,
+        "fim": 216.52,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "",
+        "inicio": 216.52,
+        "fim": 216.52,
+        "emocao_facial": "indefinido"
+    },
+    {
+        "texto": "Entend...",
+        "inicio": 216.64,
+        "fim": 216.86,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "Entende?",
+        "inicio": 216.86,
+        "fim": 216.94,
+        "emocao_facial": "neutral"
+    },
+    {
+        "texto": "",
+        "inicio": 216.94,
+        "fim": 216.94,
+        "emocao_facial": "indefinido"
+    },
+    {
+        "texto": "",
+        "inicio": 216.94,
+        "fim": 216.94,
+        "emocao_facial": "indefinido"
+    },
+    {
+        "texto": "",
+        "inicio": 216.92,
+        "fim": 216.92,
+        "emocao_facial": "indefinido"
+    }
+]

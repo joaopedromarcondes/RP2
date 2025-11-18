@@ -158,50 +158,56 @@ def gerar_pdf_report(outdir: Path, base: str, freq_path: Path, combinado_path: P
 # ============================
 # Lote
 # ============================
-def processar_lote():
+
+def processar_video_unico(nome_arquivo):
     pasta = Path("entrevistas")
     if not pasta.exists():
         raise FileNotFoundError("Pasta 'entrevistas' não existe.")
 
-    for video in sorted(pasta.glob("*.mp4")):
-        base = video.stem
-        print(f"\n=== PROCESSANDO: {base} ===")
-        outdir = Path("resultados") / base
-        outdir.mkdir(parents=True, exist_ok=True)
+    video = pasta / nome_arquivo
 
-        wav = outdir / f"{base}.wav"
-        json_freq = outdir / f"{base}.json"
-        json_combinado = outdir / f"{base}_combinado.json"
-        grafico = outdir / f"{base}_emocoes.png"
+    if not video.exists():
+        raise FileNotFoundError(f"Arquivo '{nome_arquivo}' não encontrado em /entrevistas.")
 
-        try:
-            converter_para_wav(video, wav)
-            print(f"Analisando frases: {base}")
-            frases = transcrever_com_tempo(str(wav))
-            print(f"Analisando emoções: {base}")
-            emotions = analisar_video(str(video))
+    base = video.stem
+    print(f"\n=== PROCESSANDO: {base} ===")
+    outdir = Path("resultados") / base
+    outdir.mkdir(parents=True, exist_ok=True)
 
-            print("Salvando resultados...")
-            freq = dict(Counter([e["emocao"] for e in emotions]))
-            with open(json_freq, "w", encoding="utf-8") as f:
-                json.dump(freq, f, ensure_ascii=False, indent=4)
+    wav = outdir / f"{base}.wav"
+    json_freq = outdir / f"{base}.json"
+    json_combinado = outdir / f"{base}_combinado.json"
+    grafico = outdir / f"{base}_emocoes.png"
 
-            json_emotions = str(json_freq).replace(".json", "_detalhado.json")
-            with open(json_emotions, "w", encoding="utf-8") as f:
-                json.dump(emotions, f, ensure_ascii=False, indent=4)
+    try:
+        converter_para_wav(video, wav)
+        print(f"Analisando frases: {base}")
+        frases = transcrever_com_tempo(str(wav))
+        print(f"Analisando emoções: {base}")
+        emotions = analisar_video(str(video))
 
-            print("Combinando dados...")
-            combinados = combinar(frases, emotions)
-            with open(json_combinado, "w", encoding="utf-8") as f:
-                json.dump(combinados, f, ensure_ascii=False, indent=4)
+        print("Salvando resultados...")
+        freq = dict(Counter([e["emocao"] for e in emotions]))
+        with open(json_freq, "w", encoding="utf-8") as f:
+            json.dump(freq, f, ensure_ascii=False, indent=4)
 
-            salvar_grafico(emotions, grafico)
-            gerar_pdf_report(outdir, base, json_freq, json_combinado, grafico)
+        json_emotions = str(json_freq).replace(".json", "_detalhado.json")
+        with open(json_emotions, "w", encoding="utf-8") as f:
+            json.dump(emotions, f, ensure_ascii=False, indent=4)
 
-            print(f"✔ Concluído: {base}")
+        print("Combinando dados...")
+        combinados = combinar(frases, emotions)
+        with open(json_combinado, "w", encoding="utf-8") as f:
+            json.dump(combinados, f, ensure_ascii=False, indent=4)
 
-        except Exception as e:
-            print(f"❌ Erro em {base}: {e}")
+        salvar_grafico(emotions, grafico)
+        gerar_pdf_report(outdir, base, json_freq, json_combinado, grafico)
+
+        print(f"✔ Concluído: {base}")
+
+    except Exception as e:
+        print(f"❌ Erro em {base}: {e}")
+
 
 if __name__ == "__main__":
-    processar_lote()
+    processar_video_unico("Gustavo Santos El Dib.mp4")

@@ -8,6 +8,15 @@
         "angry":0.39,
         "disgust":0.0
     },
+    "Diandra Quinello Daninger":{
+        "sad":45.54,
+        "neutral":19.9,
+        "fear":15.74,
+        "surprise":0.79,
+        "happy":7.46,
+        "angry":10.56,
+        "disgust":0.01
+    },
     "Mateus Da Cruz Esposte":{
         "sad":23.23,
         "neutral":74.15,
@@ -96,6 +105,15 @@
         "surprise":1.64,
         "happy":4.86,
         "angry":3.54,
+        "disgust":0.0
+    },
+    "Gustavo Santos El Dib":{
+        "sad":27.55,
+        "neutral":39.42,
+        "fear":17.37,
+        "surprise":3.18,
+        "happy":9.2,
+        "angry":3.29,
         "disgust":0.0
     },
     "Nazivon Santos Do Nascimento":{
