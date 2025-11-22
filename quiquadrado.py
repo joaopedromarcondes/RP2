@@ -27,7 +27,8 @@ for idx in reverse_indices:
         col_name = pss_cols[idx]
         df_pss[col_name] = reverse_score(df_pss[col_name])
 df_survey['PSS_Total'] = df_pss.sum(axis=1, skipna=True)
-
+meu_df = df_survey[df_survey['PSS_Total'] == 2]
+print(meu_df["Nome completo:"].to_string())
 # Emotion Predominant Calculation (without neutral)
 emotion_cols_without_neutral = ['sad', 'fear', 'surprise', 'happy', 'angry', 'disgust']
 df_emotions['Predominant_Emotion'] = df_emotions[emotion_cols_without_neutral].idxmax(axis=1)

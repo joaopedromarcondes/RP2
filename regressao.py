@@ -86,7 +86,7 @@ for i in range(n_components_to_keep):
 # =================================================================
 
 # Fórmula estendida: PC2, PC3, PC4, PC5 (do usuário) + Idade + Sexo + Terapia + Diagnostico
-formula_extended = 'PSS_Total ~ PC2 + C(Terapia) + C(Diagnostico)'
+formula_extended = 'PSS_Total ~ PC1+ PC2 + C(Terapia)'
 
 print("----------------------------------------------------------")
 print(f"MODELO ESTENDIDO: N = {len(df_reg_emotions)} observações.")
