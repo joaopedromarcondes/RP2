@@ -56,6 +56,10 @@ def processar_emocoes(caminho_base):
 
     # --- GERAÇÃO DO GRÁFICO MELHORADA ---
     print("📊 Gerando gráfico...")
+
+    nomes_genericos = [f"Pessoa {i+1}" for i in range(len(df))]
+
+    df.index = nomes_genericos
     
     # Aumentei um pouco a figura para caber os nomes
     plt.figure(figsize=(14, 8)) 

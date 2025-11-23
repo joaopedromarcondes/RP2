@@ -123,9 +123,11 @@ df_analysis["Emoção Predominante"] = np.where(
     "Negativa"
 )   
 
-plt.figure(figsize=(8, 6)) # Opcional: Define o tamanho do gráfico
-sns.boxplot()
-plt.title('Boxplot com Seaborn') # Opcional: Adiciona um título
+plt.figure(figsize=(8, 6)) 
+sns.boxplot(data=df_analysis, x='Emoção Predominante', y='PSS_Total', palette='Set2')
+plt.title('Distribuição do PSS por Grupo Emocional (Positivo vs Negativo)')
+plt.ylabel('Nível de Estresse (PSS)')
+plt.xlabel('Tipo de Emoção Predominante no Rosto')
 plt.show()
 
 
