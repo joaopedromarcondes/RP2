@@ -163,6 +163,27 @@ from scipy.stats import spearmanr
 
 correlacao, p_valor = spearmanr(df_analysis['Uma_Emoção'], df_analysis['PSS_Total'])
 
+stat, p_valor = stats.shapiro(grupo_neg)
+print(f"Shapiro-Wilk: p-valor = {p_valor:.4f}")
+
+if p_valor > 0.05:
+    print("Distribuição Normal (p > 0.05)")
+else:
+    print("Distribuição Não-Normal (p < 0.05)")
+
+# 2. Gráfico Q-Q (Visual)
+stats.probplot(grupo_neg, dist="norm", plot=plt)
+plt.show()
+
+estatistica, p_valor = stats.mannwhitneyu(grupo_pos, grupo_neg)
+
+print(f"Valor-p: {p_valor:.4f}")
+
+# Interpretação
+if p_valor < 0.05:
+    print("Diferença estatisticamente significativa!")
+else:
+    print("Não há diferença significativa entre os grupos.")
 
 
 print("Correlação de Spearman:", correlacao)
@@ -209,3 +230,5 @@ plt.tight_layout()
 plt.show()
 
 print(df_analysis[['Emoções_Positivas', 'Emoções Negativas']].describe())
+
+print("Infos das idades:", df_analysis['Idade'].describe())
