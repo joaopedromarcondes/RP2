@@ -4,3 +4,4 @@ entrevista.json
 .venv
 __pycache__/
 entrevistas/
+database/ds_model_vggface_detector_opencv_aligned_normalization_base_expand_0.pkl
