@@ -88,7 +88,7 @@ print("\nColumns in Merged DataFrame:\n", df_analysis.columns.tolist())
 
 
 df_analysis["Emoções_Positivas"] = df_analysis["Felicidade"] + df_analysis["Surpresa"]
-df_analysis["Emoções Negativas"] = df_analysis["Tristeza"] + df_analysis["Medo"] + df_analysis["Raiva"] + df_analysis["Nojo"] + df_analysis["Neutralidade"]
+df_analysis["Emoções Negativas"] = df_analysis["Tristeza"] + df_analysis["Medo"] + df_analysis["Raiva"] + df_analysis["Nojo"]
 
 print("\nDataFrame after adding Positive and Negative Emotions:\n", df_analysis)
 
@@ -231,4 +231,4 @@ plt.show()
 
 print(df_analysis[['Emoções_Positivas', 'Emoções Negativas']].describe())
 
-print("Infos das idades:", df_analysis['Idade'].describe())
+print("Infos das idades:", df_analysis['Emoções Negativas'].describe())
